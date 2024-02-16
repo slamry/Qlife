@@ -1,0 +1,12 @@
+.global_wrapp {
+  padding: 2.5% 7%;
+}
+body {
+  background-color: #363636;
+  user-select: none;
+  background-image: url('./components/common/img/backgr.png');
+  background-size: cover;
+  background-repeat:repeat-y;
+  background-position: start center;
+  width: auto;
+}
