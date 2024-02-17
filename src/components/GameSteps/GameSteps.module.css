@@ -11,7 +11,6 @@
 .rect_wrapp {
   position: relative;
   height: 200px;
-  /* margin-bottom: 7%; */
 }
 .rect {
   border-width: 4px;
@@ -30,7 +29,7 @@
   height: 100px;
 }
 #hand {
-  top: 75%;
+  top: 65%;
   left: 25%;
   animation: pulse 2s ease-in-out infinite;
   height: 130px;
@@ -48,7 +47,7 @@
 }
 #shoe {
   animation: animate 3s linear infinite;
-  top: 80%;
+  top: 55%;
   right: 15%;
 }
 @keyframes animate {
@@ -64,11 +63,11 @@
 }
 #apple {
   animation: animate 1.5s linear infinite;
-  top: 80%;
+  top: 50%;
   left: 25%;
 }
 #mbag {
-  top: 75%;
+  top: 60%;
   right: 12%;
   animation: pulse 2s ease-in-out infinite;
   height: 130px;

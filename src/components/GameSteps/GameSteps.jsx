@@ -2,44 +2,13 @@ import { Box, Typography } from "@mui/material";
 import styles from "./GameSteps.module.css";
 
 const GameSteps = () => {
-  function calculateBezierPoints(
-    screenWidth = window.innerWidth,
-    screenHeight = window.innerHeight,
-    startX,
-    startY,
-    control1X,
-    control1Y,
-    control2X,
-    control2Y,
-    endX,
-    endY
-  ) {
-    const initialWidth = 1440; // Исходная ширина экрана
-    const initialHeight = 900; // Исходная высота экрана
-
-    const widthCoefficient = screenWidth / initialWidth; // Коэффициент изменения ширины
-    const heightCoefficient = screenHeight / initialHeight; // Коэффициент изменения высоты
-
-    const newStartX = startX * widthCoefficient;
-    const newStartY = startY * heightCoefficient;
-    const newControl1X = control1X * widthCoefficient;
-    const newControl1Y = control1Y * heightCoefficient;
-    const newControl2X = control2X * widthCoefficient;
-    const newControl2Y = control2Y * heightCoefficient;
-    const newEndX = endX * widthCoefficient;
-    const newEndY = endY * heightCoefficient;
-
-    const pathString = `M ${newStartX}, ${newStartY} C ${newControl1X}, ${newControl1Y} ${newControl2X}, ${newControl2Y}, ${newEndX}, ${newEndY}`;
-    return pathString;
-  }
-
   return (
     <Box className={styles.wrapp}>
       <Typography className={styles.title}>Как проходит игра</Typography>
 
       <Box
         className={styles.rect_wrapp}
-        sx={{ pr: "45%", transform: "rotate(2deg)" }}
+        sx={{ pr: "580px", transform: "rotate(2deg)" }}
       >
         <Box className={styles.rect}>
           <Typography className={styles.content_t}>
@@ -56,7 +25,7 @@ const GameSteps = () => {
         />
         <svg id={styles.svg1}>
           <path
-            d="M 740, 10 C 800, 0 900, 0, 902, 190"
+            d="M 740, 10 C 800, 0 900, 0, 900, 130"
             stroke="#a6c954"
             fill="transparent"
             strokeDasharray="10"
@@ -68,7 +37,7 @@ const GameSteps = () => {
 
       <Box
         className={styles.rect_wrapp}
-        sx={{ pl: "55%", pt: "1%", transform: "rotate(357deg)" }}
+        sx={{ pl: "710px", pt: "20px", transform: "rotate(357deg)" }}
       >
         <Box className={styles.rect}>
           <Typography className={styles.content_t}>
@@ -84,7 +53,7 @@ const GameSteps = () => {
         />
         <svg id={styles.svg2}>
           <path
-            d="M 740, 60 C 500,40 431,57 395, 200"
+            d="M 740, 60 C 500,40 431,57 400, 200"
             stroke="#a6c954"
             fill="transparent"
             strokeDasharray="10"
@@ -97,7 +66,7 @@ const GameSteps = () => {
 
       <Box
         className={styles.rect_wrapp}
-        sx={{ pr: "60%", pt: "1%", transform: "rotate(3deg)" }}
+        sx={{ pr: "60%", pt: "20px", transform: "rotate(3deg)" }}
       >
         <Box className={styles.rect}>
           <Typography className={styles.content_t}>
@@ -127,7 +96,7 @@ const GameSteps = () => {
 
       <Box
         className={styles.rect_wrapp}
-        sx={{ pl: "45%", pt: "1%", transform: "rotate(357deg)" }}
+        sx={{ pl: "45%", pt: "20px", transform: "rotate(357deg)" }}
       >
         <Box className={styles.rect}>
           <Typography className={styles.content_t}>
@@ -159,7 +128,7 @@ const GameSteps = () => {
 
       <Box
         className={styles.rect_wrapp}
-        sx={{ pr: "25%", pt: "1%", transform: "rotate(2deg)" }}
+        sx={{ pr: "25%", pt: "20px", transform: "rotate(2deg)" }}
       >
         <Box className={styles.rect}>
           <Typography className={styles.content_t}>
