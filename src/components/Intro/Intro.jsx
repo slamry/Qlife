@@ -21,19 +21,30 @@ const Intro = () => {
             </Typography>
           </Box>
           <Box>
-            <Button className={styles.butt}>
-              Записаться на игру{" "}
+            <Button
+              className={styles.butt}
+              onClick={() =>
+                document
+                  .getElementById("form")
+                  .scrollIntoView({ behavior: "smooth" })
+              }
+            >
+              Записаться на игру
               <img
                 className={styles.arrow}
                 src={require("./img/arrow.png")}
                 alt=""
-              />{" "}
+              />
             </Button>
           </Box>
         </Grid>
         <Grid item xs={6}>
           <img className={styles.game} alt="" src={require("./img/game.png")} />
-          <img className={styles.text_circle} alt="" src={require("./img/text.png")} />          
+          <img
+            className={styles.text_circle}
+            alt=""
+            src={require("./img/text.png")}
+          />
         </Grid>
       </Grid>
     </Box>

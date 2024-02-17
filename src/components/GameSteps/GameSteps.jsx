@@ -25,13 +25,13 @@ const GameSteps = () => {
         />
         <svg id={styles.svg1}>
           <path
-            d="M 740, 10 C 800, 0 900, 0, 900, 130"
+            d="M 675, 10 C 800, 0 900, 0, 900, 130"
             stroke="#a6c954"
             fill="transparent"
             strokeDasharray="10"
             strokeWidth="5"
           />
-          <circle cx="740" cy="10" r="10" fill="#a6c954" />
+          <circle cx="675" cy="10" r="10" fill="#a6c954" />
         </svg>
       </Box>
 
@@ -82,7 +82,7 @@ const GameSteps = () => {
         />
         <svg id={styles.svg3}>
           <path
-            d="M 540, 80 C 650,40 770,40 833, 220"
+            d="M 520, 80 C 650,40 770,40 833, 220"
             stroke="#a6c954"
             fill="transparent"
             strokeDasharray="10"
@@ -90,7 +90,7 @@ const GameSteps = () => {
           />
 
           <circle cx="400" cy="15" r="10" fill="#a6c954" />
-          <circle cx="540" cy="80" r="10" fill="#a6c954" />
+          <circle cx="520" cy="80" r="10" fill="#a6c954" />
         </svg>
       </Box>
 
@@ -113,7 +113,7 @@ const GameSteps = () => {
         />
         <svg id={styles.svg4}>
           <path
-            d="M 610, 80 C 500,60 400,100 398, 220"
+            d="M 580, 80 C 500,60 400,100 398, 220"
             stroke="#a6c954"
             fill="transparent"
             strokeDasharray="10"
@@ -122,7 +122,7 @@ const GameSteps = () => {
 
           <circle cx="830" cy="10" r="10" fill="#a6c954" />
 
-          <circle cx="610" cy="80" r="10" fill="#a6c954" />
+          <circle cx="580" cy="80" r="10" fill="#a6c954" />
         </svg>
       </Box>
 
