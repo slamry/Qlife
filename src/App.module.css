@@ -4,9 +4,8 @@
 body {
   background-color: #363636;
   user-select: none;
-  background-image: url('./components/common/img/backgr.png');
-  background-size: cover;
-  background-repeat:repeat-y;
+  background-image: url("./components/common/img/backgr.png");
+  background-size: 100vw auto;
+  background-repeat: repeat-y;
   background-position: start center;
-  width: auto;
 }

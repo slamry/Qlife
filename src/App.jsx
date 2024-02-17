@@ -4,6 +4,7 @@ import { theme } from "./themeOptions";
 import { StyledEngineProvider } from "@mui/material/styles";
 import styles from "./App.module.css";
 import Info from "./components/Info/Info";
+import GameSteps from "./components/GameSteps/GameSteps";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Box className={styles.global_wrapp}>
           <Intro />
           <Info />
+          <GameSteps />
         </Box>
       </ThemeProvider>
     </StyledEngineProvider>
