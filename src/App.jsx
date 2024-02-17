@@ -5,6 +5,7 @@ import { StyledEngineProvider } from "@mui/material/styles";
 import styles from "./App.module.css";
 import Info from "./components/Info/Info";
 import GameSteps from "./components/GameSteps/GameSteps";
+import Form from "./components/Form/Form";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Intro />
           <Info />
           <GameSteps />
+          <Form />
         </Box>
       </ThemeProvider>
     </StyledEngineProvider>
