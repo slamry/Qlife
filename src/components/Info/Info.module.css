@@ -58,23 +58,111 @@
   flex-direction: row;
   padding-top: 7%;
 }
+.text_wrapp {
+  text-align: left;
+}
+.title {
+  color: #000000;
+  font-size: 20px;
+  transform: rotate(355deg);
+  font-weight: 600;
+}
+.content {
+  transform: rotate(355deg);
+  color: #000000;
+  font-size: 20px;
+  padding-left: 2%;
+}
 .card1 {
   background-image: url("./img/card1.png");
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
-  /* width: auto;
-    height: 100%; */
+  height: 500px;
+  padding: 5% 6%;
 }
 .card2 {
   background-image: url("./img/card2.png");
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
+  height: 500px;
+  padding: 4% 4% 0% 8%;
+}
+.card2 > .text_wrapp {
+  transform: rotate(8deg);
 }
 .card3 {
   background-image: url("./img/card3.png");
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
+  height: 500px;
+  padding: 5% 5% 5% 6%;
+}
+.card3 > .text_wrapp {
+  transform: rotate(2deg);
+}
+.back_star {
+  position: absolute;
+  z-index: -1;
+  height: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.gamerules_wrapp {
+  /* padding: 10% 0%; */
+  height: 900px;
+  justify-content: space-between;
+  flex-direction: column;
+  background-image: url("./img/gamerules.png");
+  background-size: 55%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.hand {
+  height: 150px;
+  padding-left: 10%;
+  padding-top: 10%;
+  animation: pulse 2s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  from {
+    transform: scale(0.85);
+  }
+  50% {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(0.85);
+  }
+}
+.gr_text_wrapp {
+  border-radius: 22px;
+  padding: 3%;
+  transform: rotate(8deg);
+  background-color: #ffffff;
+  background-position: center center;
+  border-color: transparent;
+}
+.gr_text {
+  color: #000000;
+  font-size: 20px;
+  background-position: center center;
+}
+
+.results_wrapp {
+  padding: 2%;
+  border-radius: 33px;
+  background-color: #ffffff;
+}
+.marker {
+  height: 20px;
+  margin-right: 1%;
+}
+.results_text {
+  color: #000000;
+  font-size: 20px;
 }
