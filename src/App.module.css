@@ -1,5 +1,6 @@
 .global_wrapp {
   padding: 2.5% 7%;
+  margin: 0 auto;
 }
 body {
   background-color: #363636;
