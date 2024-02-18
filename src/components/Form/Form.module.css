@@ -1,0 +1,95 @@
+.wrapp {
+  padding-top: 5%;
+}
+.content_wrapp {
+  position: relative;
+}
+.title {
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.content {
+  color: #80c954;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.game {
+  width: 120%;
+}
+.apple {
+  position: absolute;
+  width: 100px;
+  top: 60%;
+  left: 100%;
+  animation: animate 3s linear infinite;
+}
+@keyframes animate {
+  0% {
+    transform: rotate(-30deg);
+  }
+  50% {
+    transform: rotate(30deg);
+  }
+  100% {
+    transform: rotate(-30deg);
+  }
+}
+.form_wrapp {
+  padding: 0% 0% 5% 15%;
+  position: relative;
+}
+.form_ {
+  border-radius: 38px;
+  opacity: 0.93;
+  background-color: #ffffff;
+  padding: 12% 7%;
+}
+.form_control {
+  padding-top: 7%;
+  width: 100%;
+}
+.f_title {
+  font-size: 20px;
+  font-weight: 600;
+}
+.butt_wrapp {
+  display: flex;
+  justify-content: center;
+  padding-top: 10%;
+}
+.butt {
+  color: #ffffff;
+  font-size: 20px;
+  padding: 4% 12%;
+  font-weight: 600;
+  border-width: 3px;
+  border-radius: 50px;
+  background-image: linear-gradient(
+    0.35168578748975493turn,
+    rgba(128, 201, 84, 1) 0%,
+    rgba(57, 122, 55, 1) 100%
+  );
+  border-color: #ffffff;
+  border-style: solid;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out,
+    border-color 0.2s ease-in-out;
+  text-wrap: nowrap;
+  align-items: center;
+}
+.cubes {
+  position: absolute;
+  height: 130px;
+  right: 0%;
+  top: 70%;
+}
+.colored {
+  position: absolute;
+  background-color: #fff;
+  width: 70%;
+  height: 95%;
+  border-radius: 30px;
+  z-index: -3;
+}
