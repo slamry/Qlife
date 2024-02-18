@@ -55,8 +55,8 @@
   width: 100%;
 }
 .text_circle {
-  top: 250px;
-  right: 140px;
+  top: 45%;
+  right: 7%;
   height: 300px;
   z-index: -1;
   position: absolute;

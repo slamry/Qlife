@@ -38,7 +38,7 @@ const Intro = () => {
             </Button>
           </Box>
         </Grid>
-        <Grid item xs={6}>
+        <Grid item xs={6} position={'relative'}>
           <img className={styles.game} alt="" src={require("./img/game.png")} />
           <img
             className={styles.text_circle}

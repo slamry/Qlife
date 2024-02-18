@@ -41,8 +41,8 @@ const Form = () => {
           src="https://docs.google.com/forms/d/e/1FAIpQLSd0RleaOAAZuypfgV654ozcNhUzNvY3w7v2cyFrAp8QHrtmXQ/viewform?embedded=true"
           frameborder="0"
           style={{
-            width: "500px",
-            height: "1050px",
+            width: "600px",
+            height: "970px",
             display: "flex",
             alignItems: "center",
           }}
