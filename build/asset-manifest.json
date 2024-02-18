@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.24a2fa14.css",
+    "main.js": "/static/js/main.94893c00.js",
+    "static/media/game.png": "/static/media/game.e2119400f85c51bc4f5e.png",
+    "static/media/gamerules.png": "/static/media/gamerules.9cfe50e7c3ba14800c03.png",
+    "static/media/card2.png": "/static/media/card2.a9b6fee6fe6e180cfd9f.png",
+    "static/media/card1.png": "/static/media/card1.34e4012baeba53d30970.png",
+    "static/media/cubes.png": "/static/media/cubes.39f478b6945f4e1fb32b.png",
+    "static/media/card3.png": "/static/media/card3.588c581d964391ce1ec6.png",
+    "static/media/star.png": "/static/media/star.6795a5e9eef2936e1397.png",
+    "static/media/hand.png": "/static/media/hand.ecc0076d81ec3f1ddb37.png",
+    "static/media/mbag.png": "/static/media/mbag.e68b20d43d54a6ea0f94.png",
+    "static/media/shoe.png": "/static/media/shoe.d5a6cab9492362452ce7.png",
+    "static/media/apple.png": "/static/media/apple.a78b3b89978e9b7d36d7.png",
+    "static/media/backgr.png": "/static/media/backgr.60c7956e4bdc147d15be.png",
+    "static/media/text.png": "/static/media/text.490dac9c6804b5ae16df.png",
+    "index.html": "/index.html",
+    "main.24a2fa14.css.map": "/static/css/main.24a2fa14.css.map",
+    "main.94893c00.js.map": "/static/js/main.94893c00.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.24a2fa14.css",
+    "static/js/main.94893c00.js"
+  ]
+}
