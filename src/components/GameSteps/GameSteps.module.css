@@ -47,8 +47,8 @@
 }
 #shoe {
   animation: animate 3s linear infinite;
-  top: 55%;
-  right: 15%;
+  top: 130px;
+  right: 130px;
 }
 @keyframes animate {
   0% {

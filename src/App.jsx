@@ -6,6 +6,7 @@ import styles from "./App.module.css";
 import Info from "./components/Info/Info";
 import GameSteps from "./components/GameSteps/GameSteps";
 import Form from "./components/Form/Form";
+import Development from "./components/Development/Development";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Info />
           <GameSteps />
           <Form />
+          <Development />
         </Box>
       </ThemeProvider>
     </StyledEngineProvider>

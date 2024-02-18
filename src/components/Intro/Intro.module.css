@@ -9,6 +9,7 @@
   font-size: 90px;
   color: white;
   letter-spacing: -4px;
+  text-wrap: nowrap;
 }
 .become {
   font-weight: 600;
@@ -55,8 +56,8 @@
   width: 100%;
 }
 .text_circle {
-  top: 45%;
-  right: 7%;
+  top: 198px;
+  right: 36px;
   height: 300px;
   z-index: -1;
   position: absolute;

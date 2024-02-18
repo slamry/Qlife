@@ -8,7 +8,7 @@ const GameSteps = () => {
 
       <Box
         className={styles.rect_wrapp}
-        sx={{ pr: "580px", transform: "rotate(2deg)" }}
+        sx={{ pr: "580px", transform: "rotate(2deg)", width: "650px" }}
       >
         <Box className={styles.rect}>
           <Typography className={styles.content_t}>
@@ -37,7 +37,12 @@ const GameSteps = () => {
 
       <Box
         className={styles.rect_wrapp}
-        sx={{ pl: "710px", pt: "20px", transform: "rotate(357deg)" }}
+        sx={{
+          pl: "700px",
+          pt: "20px",
+          transform: "rotate(357deg)",
+          width: "400px",
+        }}
       >
         <Box className={styles.rect}>
           <Typography className={styles.content_t}>
@@ -53,20 +58,25 @@ const GameSteps = () => {
         />
         <svg id={styles.svg2}>
           <path
-            d="M 740, 60 C 500,40 431,57 400, 200"
+            d="M 720, 60 C 500,40 431,57 400, 200"
             stroke="#a6c954"
             fill="transparent"
             strokeDasharray="10"
             strokeWidth="5"
           />
           <circle cx="900" cy="15" r="10" fill="#a6c954" />
-          <circle cx="740" cy="60" r="10" fill="#a6c954" />
+          <circle cx="720" cy="60" r="10" fill="#a6c954" />
         </svg>
       </Box>
 
       <Box
         className={styles.rect_wrapp}
-        sx={{ pr: "60%", pt: "20px", transform: "rotate(3deg)" }}
+        sx={{
+          pr: "60%",
+          pt: "20px",
+          transform: "rotate(3deg)",
+          width: "500px",
+        }}
       >
         <Box className={styles.rect}>
           <Typography className={styles.content_t}>
@@ -96,7 +106,7 @@ const GameSteps = () => {
 
       <Box
         className={styles.rect_wrapp}
-        sx={{ pl: "45%", pt: "20px", transform: "rotate(357deg)" }}
+        sx={{ pl: "560px", pt: "20px", transform: "rotate(357deg)" }}
       >
         <Box className={styles.rect}>
           <Typography className={styles.content_t}>
@@ -120,15 +130,14 @@ const GameSteps = () => {
             strokeWidth="5"
           />
 
-          <circle cx="830" cy="10" r="10" fill="#a6c954" />
-
+          <circle cx="825" cy="10" r="10" fill="#a6c954" />
           <circle cx="580" cy="80" r="10" fill="#a6c954" />
         </svg>
       </Box>
 
       <Box
         className={styles.rect_wrapp}
-        sx={{ pr: "25%", pt: "20px", transform: "rotate(2deg)" }}
+        sx={{ pr: "300px", pt: "20px", transform: "rotate(2deg)" }}
       >
         <Box className={styles.rect}>
           <Typography className={styles.content_t}>

@@ -35,20 +35,21 @@ const Form = () => {
         <img className={s.apple} alt="" src={require("./img/apple.png")} />
       </Grid>
       <Grid item xs={7} className={s.form_wrapp}>
-        <Box className={s.colored}></Box>
-        <iframe
-          title="form"
-          src="https://docs.google.com/forms/d/e/1FAIpQLSd0RleaOAAZuypfgV654ozcNhUzNvY3w7v2cyFrAp8QHrtmXQ/viewform?embedded=true"
-          frameborder="0"
-          style={{
-            width: "600px",
-            height: "970px",
-            display: "flex",
-            alignItems: "center",
-          }}
-        >
-          Загрузка…
-        </iframe>
+        <Box className={s.colored}>
+          <iframe
+            title="form"
+            src="https://docs.google.com/forms/d/e/1FAIpQLSd0RleaOAAZuypfgV654ozcNhUzNvY3w7v2cyFrAp8QHrtmXQ/viewform?embedded=true"
+            frameborder="0"
+            style={{
+              width: "600px",
+              height: "1000px",
+              display: "flex",
+              alignItems: "center",
+            }}
+          >
+            Загрузка…
+          </iframe>
+        </Box>
         {/* <form onSubmit={handleSubmit(onSubmit)} className={s.form_} id="form">
           <Typography className={s.f_title}>
             Оставьте заявку, и мы вышлем дату, а также место проведения игры в
