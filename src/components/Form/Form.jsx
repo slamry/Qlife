@@ -1,29 +1,29 @@
 import {
   Grid,
   Typography,
-  Input,
-  FormControl,
-  FormHelperText,
-  Button,
+  // Input,
+  // FormControl,
+  // FormHelperText,
+  // Button,
   Box,
 } from "@mui/material";
 import s from "./Form.module.css";
-import { useForm } from "react-hook-form";
+// import { useForm } from "react-hook-form";
 
 const Form = () => {
-  const {
-    register,
-    handleSubmit,
-    formState: { errors },
-  } = useForm();
+  // const {
+  //   register,
+  //   handleSubmit,
+  //   formState: { errors },
+  // } = useForm();
 
-  async function onSubmit(value) {
-    console.log(value);
-  }
+  // async function onSubmit(value) {
+  //   console.log(value);
+  // }
 
   return (
     <Grid container className={s.wrapp}>
-      <Grid item xs={6} className={s.content_wrapp}>
+      <Grid item xs={5} className={s.content_wrapp}>
         <Typography className={s.title}>
           Хватит существовать без плана!
         </Typography>
@@ -34,8 +34,22 @@ const Form = () => {
         <img className={s.game} alt="" src={require("./img/game.png")} />
         <img className={s.apple} alt="" src={require("./img/apple.png")} />
       </Grid>
-      <Grid item xs={6} className={s.form_wrapp}>
-        <form onSubmit={handleSubmit(onSubmit)} className={s.form_} id="form">
+      <Grid item xs={7} className={s.form_wrapp}>
+        <Box className={s.colored}></Box>
+        <iframe
+          title="form"
+          src="https://docs.google.com/forms/d/e/1FAIpQLSd0RleaOAAZuypfgV654ozcNhUzNvY3w7v2cyFrAp8QHrtmXQ/viewform?embedded=true"
+          frameborder="0"
+          style={{
+            width: "500px",
+            height: "1050px",
+            display: "flex",
+            alignItems: "center",
+          }}
+        >
+          Загрузка…
+        </iframe>
+        {/* <form onSubmit={handleSubmit(onSubmit)} className={s.form_} id="form">
           <Typography className={s.f_title}>
             Оставьте заявку, и мы вышлем дату, а также место проведения игры в
             вашем городе
@@ -106,7 +120,7 @@ const Form = () => {
               Записаться на игру
             </Button>
           </Box>
-        </form>
+        </form> */}
         <img className={s.cubes} alt="" src={require("./img/cubes.png")} />
       </Grid>
     </Grid>
