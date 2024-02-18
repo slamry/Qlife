@@ -34,12 +34,12 @@ const Form = () => {
         <img className={s.game} alt="" src={require("./img/game.png")} />
         <img className={s.apple} alt="" src={require("./img/apple.png")} />
       </Grid>
-      <Grid item xs={7} className={s.form_wrapp}>
+      <Grid item xs={7} className={s.form_wrapp} id="form">
         <Box className={s.colored}>
           <iframe
             title="form"
             src="https://docs.google.com/forms/d/e/1FAIpQLSd0RleaOAAZuypfgV654ozcNhUzNvY3w7v2cyFrAp8QHrtmXQ/viewform?embedded=true"
-            frameborder="0"
+            frameBorder="0"
             style={{
               width: "600px",
               height: "1000px",
@@ -50,7 +50,7 @@ const Form = () => {
             Загрузка…
           </iframe>
         </Box>
-        {/* <form onSubmit={handleSubmit(onSubmit)} className={s.form_} id="form">
+        {/* <form onSubmit={handleSubmit(onSubmit)} className={s.form_} >
           <Typography className={s.f_title}>
             Оставьте заявку, и мы вышлем дату, а также место проведения игры в
             вашем городе
