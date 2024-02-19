@@ -1,0 +1,88 @@
+.grid_c {
+  flex-direction: row;
+  padding-top: 50px;
+}
+.hi_text {
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 45px;
+}
+.desc {
+  padding: 15px 0px;
+  color: #80c954;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.content {
+  padding: 15px 0px;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 500;
+}
+.under_content {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 500;
+  padding-bottom: 30px;
+}
+.rect {
+  background-image: url("./img/rect.png");
+  background-size: 370px 280px;
+  background-repeat: no-repeat;
+  background-position: start center;
+  border-radius: 15px;
+  padding: 50px 50px;
+  padding-right: 200px;
+  position: relative;
+}
+.point {
+  font-size: 20px;
+  font-weight: 500;
+  display: flex;
+}
+.marker {
+  height: 20px;
+  padding-top: 4px;
+  padding-right: 10px;
+}
+.grid_images {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  background-image: url("./img/liliya.png");
+  background-size: 660px 930px;
+  background-repeat: cover;
+  background-position: center center;
+  /* padding-bottom: 20px; */
+}
+.mbag {
+  position: absolute;
+  height: 120px;
+  animation: animate 1.7s linear infinite;
+  top: 70px;
+  left: 70px;
+}
+@keyframes animate {
+  0% {
+    transform: rotate(-30deg);
+  }
+  50% {
+    transform: rotate(20deg);
+  }
+  100% {
+    transform: rotate(-30deg);
+  }
+}
+.text_wrapp {
+  border-radius: 22px;
+  background-color: #ffffff;
+  transform: rotate(5deg);
+  padding: 25px 30px;
+}
+.text {
+  font-size: 26px;
+  font-weight: 600;
+}

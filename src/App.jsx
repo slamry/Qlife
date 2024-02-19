@@ -7,6 +7,7 @@ import Info from "./components/Info/Info";
 import GameSteps from "./components/GameSteps/GameSteps";
 import Form from "./components/Form/Form";
 import Development from "./components/Development/Development";
+import AboutUs from "./components/AboutUs/AboutUs";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <GameSteps />
           <Form />
           <Development />
+          <AboutUs />
         </Box>
       </ThemeProvider>
     </StyledEngineProvider>
