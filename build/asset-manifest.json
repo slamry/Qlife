@@ -1,26 +1,31 @@
 {
   "files": {
-    "main.css": "/Qlife/static/css/main.7cfb00ce.css",
-    "main.js": "/Qlife/static/js/main.26fa68dd.js",
+    "main.css": "/Qlife/static/css/main.4b3a2c01.css",
+    "main.js": "/Qlife/static/js/main.39f714e5.js",
     "static/media/game.png": "/Qlife/static/media/game.e2119400f85c51bc4f5e.png",
+    "static/media/liliya.png": "/Qlife/static/media/liliya.775939fd16e3e9056f28.png",
     "static/media/gamerules.png": "/Qlife/static/media/gamerules.9cfe50e7c3ba14800c03.png",
     "static/media/card2.png": "/Qlife/static/media/card2.a9b6fee6fe6e180cfd9f.png",
     "static/media/card1.png": "/Qlife/static/media/card1.34e4012baeba53d30970.png",
     "static/media/cubes.png": "/Qlife/static/media/cubes.39f478b6945f4e1fb32b.png",
     "static/media/card3.png": "/Qlife/static/media/card3.588c581d964391ce1ec6.png",
+    "static/media/backgr.png": "/Qlife/static/media/backgr.60c7956e4bdc147d15be.png",
+    "static/media/inst.png": "/Qlife/static/media/inst.f643d4254da05a235171.png",
     "static/media/star.png": "/Qlife/static/media/star.6795a5e9eef2936e1397.png",
+    "static/media/vk.png": "/Qlife/static/media/vk.9d1d6fdb1d3bd0f2aaa2.png",
+    "static/media/tg.png": "/Qlife/static/media/tg.c86b6c3202ff66fbf84c.png",
     "static/media/hand.png": "/Qlife/static/media/hand.ecc0076d81ec3f1ddb37.png",
     "static/media/mbag.png": "/Qlife/static/media/mbag.e68b20d43d54a6ea0f94.png",
     "static/media/shoe.png": "/Qlife/static/media/shoe.d5a6cab9492362452ce7.png",
+    "static/media/wa.png": "/Qlife/static/media/wa.694c02f1d0cf5178cb4b.png",
     "static/media/apple.png": "/Qlife/static/media/apple.a78b3b89978e9b7d36d7.png",
-    "static/media/backgr.png": "/Qlife/static/media/backgr.60c7956e4bdc147d15be.png",
     "static/media/text.png": "/Qlife/static/media/text.490dac9c6804b5ae16df.png",
     "index.html": "/Qlife/index.html",
-    "main.7cfb00ce.css.map": "/Qlife/static/css/main.7cfb00ce.css.map",
-    "main.26fa68dd.js.map": "/Qlife/static/js/main.26fa68dd.js.map"
+    "main.4b3a2c01.css.map": "/Qlife/static/css/main.4b3a2c01.css.map",
+    "main.39f714e5.js.map": "/Qlife/static/js/main.39f714e5.js.map"
   },
   "entrypoints": [
-    "static/css/main.7cfb00ce.css",
-    "static/js/main.26fa68dd.js"
+    "static/css/main.4b3a2c01.css",
+    "static/js/main.39f714e5.js"
   ]
 }
