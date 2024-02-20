@@ -8,7 +8,7 @@ import GameSteps from "./components/GameSteps/GameSteps";
 import Form from "./components/Form/Form";
 import Development from "./components/Development/Development";
 import AboutUs from "./components/AboutUs/AboutUs";
-import AnotherForm from "./components/AnotherForm/AnotherForm";
+// import AnotherForm from "./components/AnotherForm/AnotherForm";
 import Footer from "./components/Footer/Footer";
 
 function App() {
@@ -22,7 +22,7 @@ function App() {
           <Form />
           <Development />
           <AboutUs />
-          <AnotherForm />
+          {/* <AnotherForm /> */}
           <Footer />
         </Box>
       </ThemeProvider>
