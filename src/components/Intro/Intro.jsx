@@ -8,17 +8,15 @@ const Intro = () => {
 
   return (
     <Box>
-      {isMenuVisible ? (
-        <Box>
-          {(document.body.style.overflow = "hidden")}
-          <Menu
-            isMenuVisible={isMenuVisible}
-            closeMenu={() => setIsMenuVisible(false)}
-          />
-        </Box>
-      ) : (
-        <Box>{(document.body.style.overflow = "")}</Box>
-      )}
+      <Menu
+        isMenuVisible={isMenuVisible}
+        closeMenu={() => {
+          setIsMenuVisible(false);
+          document.body.style.overflow = "";
+        }}
+        visibleStyle={{ right: "0px" }}
+        hiddenStyle={{ right: "-500px" }}
+      />
       <Grid container className={styles.container}>
         <Grid item xs={6}>
           <Typography color="primary" className={styles.learn}>
