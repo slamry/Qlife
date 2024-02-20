@@ -1,14 +1,15 @@
 .wrapp {
-    padding-top: 100px;
+    padding-top: 150px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 .rights {
   color: #ffffff;
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 500;
   text-transform: uppercase;
+  text-align: center;
 }
 .logos{
     width: 70px;

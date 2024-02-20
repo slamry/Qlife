@@ -7,24 +7,15 @@
   bottom: 0;
   background-color: rgba(54, 54, 54, 0.5);
   z-index: 1;
+  transition: all 0.5s ease;
 }
 .menu_wrapp {
-  position: fixed;
-  height: 100vh;
-  width: 500px;
-  right: -500px;
-  top: 0px;
-  left: 0;
-  z-index: 2;
-  background-color: #80c954;
-  transition: right 0.3s ease;
-}
-.menu_wrapp_visible {
   padding: 60px;
   position: fixed;
   height: 100vh;
   width: 350px;
   right: 0px;
+  top: 0;
   z-index: 2;
   background-color: #397a37;
   display: flex;
@@ -34,15 +25,12 @@
 .link {
   color: #fff;
   font-size: 40px;
-  text-decoration: none;
   padding-bottom: 20px;
-  transition: all 0.3s ease;
+  transition: all 0.5s ease;
 }
 .link:hover {
-  transition: all 0.3s ease;
-  text-decoration: underline;
+  transition: all 0.5s ease;
 }
-
 .close_butt {
   position: absolute;
   cursor: pointer;
