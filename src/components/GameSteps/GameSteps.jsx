@@ -3,7 +3,7 @@ import styles from "./GameSteps.module.css";
 
 const GameSteps = () => {
   return (
-    <Box className={styles.wrapp}>
+    <Box className={styles.wrapp} id="gsteps">
       <Typography className={styles.title}>Как проходит игра</Typography>
 
       <Box

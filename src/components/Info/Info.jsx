@@ -3,7 +3,7 @@ import styles from "./Info.module.css";
 
 const Info = () => {
   return (
-    <Box className={styles.wrapp}>
+    <Box className={styles.wrapp} id="info">
       <Grid container>
         <Grid item xs={6}>
           <Typography className={styles.ql}>Quality life</Typography>

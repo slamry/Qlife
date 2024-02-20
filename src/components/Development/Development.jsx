@@ -30,7 +30,7 @@ const Development = () => {
             <img src={require("./img/game.png")} alt="" className={s.image} />
             <Typography className={s.card_t}>Более 300 игр в месяц</Typography>
           </Box>
-          <svg>
+          <svg id='aboutus'>
             <path
               d="M 200, 30 C 300, 0 320, 0, 400, 30"
               stroke="#a6c954"
