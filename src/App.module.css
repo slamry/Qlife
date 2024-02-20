@@ -1,7 +1,7 @@
 .global_wrapp {
-  padding: 2.5% 7%;
+  padding: 40px 110px;
   margin: 0 auto;
-  width: 100%;
+  width: 100vw;
   max-width: 1440px;
   box-sizing: border-box;
 }
@@ -12,4 +12,8 @@ body {
   background-size: 100vw auto;
   background-repeat: repeat-y;
   background-position: start center;
+  transition: all 0.3s ease;
+}
+a {
+  cursor: pointer;
 }

@@ -71,3 +71,15 @@
     transform: rotate(360deg);
   }
 }
+
+.menu_butt {
+  position: absolute;
+  cursor: pointer;
+  border-radius: 50%;
+  background-color: #80c954;
+  top: 0px;
+  left: 570px;
+  height: 70px;
+  width: 70px;
+  z-index: 0;
+}

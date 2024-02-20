@@ -1,10 +1,24 @@
 import { Box, Button, Grid, Typography } from "@mui/material";
 import styles from "./Intro.module.css";
+import Menu from "./Menu/Menu";
+import { useState } from "react";
 
 const Intro = () => {
+  const [isMenuVisible, setIsMenuVisible] = useState(false);
+
   return (
     <Box>
-      <Box>{/* menu button!!! */}</Box>
+      {isMenuVisible ? (
+        <Box>
+          {(document.body.style.overflow = "hidden")}
+          <Menu
+            isMenuVisible={isMenuVisible}
+            closeMenu={() => setIsMenuVisible(false)}
+          />
+        </Box>
+      ) : (
+        <Box>{(document.body.style.overflow = "")}</Box>
+      )}
       <Grid container className={styles.container}>
         <Grid item xs={6}>
           <Typography color="primary" className={styles.learn}>
@@ -38,7 +52,19 @@ const Intro = () => {
             </Button>
           </Box>
         </Grid>
-        <Grid item xs={6} position={'relative'}>
+        <Grid item xs={6} position={"relative"}>
+          <Box
+            className={styles.menu_butt}
+            onClick={() => setIsMenuVisible(true)}
+          >
+            <svg viewBox="0 0 17 17">
+              <g>
+                <rect fill="#fff" height="1" width="11" x="3" y="7.5" />
+                <rect fill="#fff" height="1" width="11" x="3" y="4.5" />
+                <rect fill="#fff" height="1" width="11" x="3" y="10.5" />
+              </g>
+            </svg>
+          </Box>
           <img className={styles.game} alt="" src={require("./img/game.png")} />
           <img
             className={styles.text_circle}
