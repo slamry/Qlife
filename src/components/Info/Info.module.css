@@ -1,13 +1,16 @@
 .wrapp {
   padding-top: 10%;
 }
+.item__gr_text_wrapp {
+  padding: 0% 0% 7% 60%;
+}
 .ql {
   color: #ffffff;
   font-size: 40px;
   font-weight: 700;
   text-transform: uppercase;
   background-position: center center;
-  margin-bottom: 3%;
+  margin-bottom: 1%;
 }
 .text_under_ql {
   color: #ffffff;
@@ -27,7 +30,6 @@
   padding-right: 1%;
   animation: pulse 2s ease-in-out infinite;
 }
-
 @keyframes pulse {
   from {
     transform: scale(0.85);
@@ -54,7 +56,6 @@
   }
 }
 .cards_wrapp {
-  display: flex;
   flex-direction: row;
   padding-top: 7%;
 }
@@ -64,11 +65,11 @@
 .title {
   color: #000000;
   font-size: 20px;
-  transform: rotate(355deg);
+  transform: rotate(356deg);
   font-weight: 600;
 }
 .content {
-  transform: rotate(355deg);
+  transform: rotate(356deg);
   color: #000000;
   font-size: 20px;
   padding-left: 8px;
@@ -91,7 +92,7 @@
   padding: 4% 4% 0% 8%;
 }
 .card2 > .text_wrapp {
-  transform: rotate(8deg);
+  transform: rotate(6.7deg);
 }
 .card3 {
   background-image: url("./img/card3.png");
@@ -99,54 +100,10 @@
   background-repeat: no-repeat;
   background-position: center center;
   height: 500px;
-  padding: 5% 5% 5% 6%;
+  padding: 4% 5% 5% 6%;
 }
 .card3 > .text_wrapp {
   transform: rotate(2deg);
-}
-@media (max-width: 1352px) {
-  .card1 {
-    height: 470px;
-    padding: 5% 6%;
-  }
-  .card2 {
-    height: 470px;
-    padding: 4% 4% 0% 8%;
-  }
-  .card3 {
-    height: 470px;
-    padding: 5% 5% 5% 6%;
-  }
-  .title {
-    font-size: 18px;
-    font-weight: 600;
-  }
-  .content {
-    font-size: 18px;
-    line-height: 25px;
-  }
-}
-@media (max-width: 1270px) {
-  .card1 {
-    height: 400px;
-    padding: 5% 6%;
-  }
-  .card2 {
-    height: 400px;
-    padding: 4% 4% 0% 8%;
-  }
-  .card3 {
-    height: 400px;
-    padding: 4% 5% 5% 6%;
-  }
-  .title {
-    font-size: 16px;
-    font-weight: 600;
-  }
-  .content {
-    font-size: 16px;
-    line-height: 20px;
-  }
 }
 .back_star {
   position: absolute;
@@ -172,7 +129,6 @@
   padding-top: 10%;
   animation: pulse 2s ease-in-out infinite;
 }
-
 @keyframes pulse {
   from {
     transform: scale(0.85);
@@ -195,7 +151,6 @@
 .gr_text {
   color: #000000;
   font-size: 20px;
-  background-position: center center;
 }
 
 .results_wrapp {
@@ -212,7 +167,29 @@
   font-size: 20px;
 }
 
+/*////////////////////////////////////////////*/
+
 @media (max-width: 1352px) {
+  .card1 {
+    height: 470px;
+    padding: 5% 6%;
+  }
+  .card2 {
+    height: 470px;
+    padding: 4% 4% 0% 8%;
+  }
+  .card3 {
+    height: 470px;
+    padding: 5% 5% 5% 6%;
+  }
+  .title {
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .content {
+    font-size: 18px;
+    line-height: 25px;
+  }
   .results_text {
     font-size: 17px;
   }
@@ -221,5 +198,386 @@
   }
   .marker {
     height: 17px;
+  }
+}
+@media (max-width: 1270px) {
+  .card1 {
+    height: 400px;
+  }
+  .card2 {
+    height: 400px;
+  }
+  .card3 {
+    height: 400px;
+    padding: 4% 5% 5% 6%;
+  }
+  .title {
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .content {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+@media (max-width: 1100px) {
+  .card1 {
+    height: 350px;
+  }
+  .card2 {
+    height: 350px;
+    padding: 4% 3% 0% 7.5%;
+  }
+  .card3 {
+    height: 350px;
+  }
+  .title {
+    font-size: 16px;
+  }
+  .content {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .star {
+    height: 250px;
+  }
+  .mbag {
+    height: 100px;
+  }
+  .hand {
+    height: 100px;
+  }
+  .gamerules_wrapp {
+    height: 700px;
+    background-size: 55%;
+  }
+}
+@media (max-width: 1018px) {
+  .title {
+    font-size: 15px;
+  }
+  .content {
+    font-size: 15px;
+    line-height: 18px;
+  }
+}
+/*    TABLET VIEW   */
+@media (max-width: 956px) {
+  .gamerules_wrapp {
+    height: 800px;
+    background-size: 80%;
+  }
+  .cards_wrapp {
+    flex-direction: column;
+  }
+  .card1 {
+    background-position: left center;
+    padding: 4% 6%;
+    height: 410px;
+    width: 100%;
+  }
+  .card1 > .text_wrapp {
+    padding-top: 10%;
+    padding-right: 16%;
+  }
+  .card2 {
+    background-position: right center;
+    padding: 4% 6%;
+    height: 410px;
+    width: 100%;
+  }
+  .card3 {
+    background-position: left center;
+    padding: 4% 6%;
+    height: 410px;
+    width: 100%;
+  }
+  .card2 > .text_wrapp {
+    padding-top: 10%;
+    padding-left: 25%;
+  }
+  .card3 > .text_wrapp {
+    padding-top: 3%;
+  }
+  .title {
+    font-size: 20px;
+  }
+  .content {
+    font-size: 17px;
+    padding-left: 1%;
+    line-height: 27px;
+  }
+  .images {
+    padding: 0;
+    position: relative;
+    width: 100%;
+  }
+  .mbag {
+    height: 35%;
+    padding-right: 0%;
+    left: 30%;
+  }
+  .star {
+    height: 65%;
+    left: 5%;
+  }
+  .hand {
+    height: 140px;
+    padding-left: 0%;
+    padding-top: 0%;
+  }
+  .item__gr_text_wrapp {
+    padding: 0% 0% 7% 35%;
+  }
+  .gr_text_wrapp {
+    border-radius: 20px;
+    padding: 3%;
+    transform: rotate(5deg);
+  }
+  .results_wrapp {
+    padding: 3%;
+    border-radius: 20px;
+  }
+  .marker {
+    height: 17px;
+  }
+  .results_text {
+    font-size: 17px;
+  }
+}
+@media (max-width: 860px) {
+  .card2 > .text_wrapp {
+    padding-top: 5%;
+    padding-left: 17%;
+  }
+}
+@media (max-width: 777px) {
+  .marker {
+    height: 17px;
+  }
+  .results_text {
+    font-size: 17px;
+  }
+  .title {
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .content {
+    font-size: 17px;
+    padding-left: 2%;
+    line-height: 140%;
+  }
+  .mbag {
+    left: 32%;
+  }
+  .card3 > .text_wrapp {
+    padding-top: 10%;
+    padding-left: 5%;
+    padding-right: 2%;
+  }
+}
+@media (max-width: 742px) {
+  .card1 > .text_wrapp {
+    padding-top: 15%;
+    padding-right: 2%;
+    padding-left: 5%;
+  }
+  .card2 > .text_wrapp {
+    padding-top: 10%;
+    padding-left: 15%;
+  }
+  .mbag {
+    left: 35%;
+  }
+  .gamerules_wrapp {
+    height: 600px;
+    background-size: 80%;
+  }
+  .card3 > .text_wrapp {
+    padding-top: 5%;
+    padding-right: 0%;
+  }
+}
+@media (max-width: 660px) {
+  .card3 > .text_wrapp {
+    padding-top: 7%;
+    padding-right: 0%;
+    padding-left: 5%;
+  }
+  .mbag {
+    height: 30%;
+    left: 38%;
+  }
+  .star {
+    height: 60%;
+  }
+  .hand {
+    height: 100px;
+  }
+  .item__gr_text_wrapp {
+    padding: 0% 0% 7% 1%;
+  }
+}
+@media (max-width: 650px) {
+  .card1 > .text_wrapp {
+    padding-top: 22%;
+    padding-right: 2%;
+    padding-left: 5%;
+  }
+  .card2 > .text_wrapp {
+    padding-top: 20%;
+    padding-left: 12%;
+    width: 100%;
+  }
+  .card3 > .text_wrapp {
+    padding-top: 5%;
+  }
+  .card3 {
+    height: 360px;
+  }
+  .title {
+    font-size: 17px;
+  }
+  .content {
+    font-size: 16px;
+    padding-left: 2%;
+    line-height: 130%;
+  }
+}
+@media (max-width: 595px) {
+  .card1 > .text_wrapp {
+    padding-top: 30%;
+  }
+  .card2 > .text_wrapp {
+    padding-top: 30%;
+    padding-left: 10%;
+  }
+  .card3 > .text_wrapp {
+    padding-top: 10%;
+    padding-left: 7%;
+  }
+  .mbag {
+    height: 25%;
+    left: 30%;
+  }
+  .star {
+    height: 45%;
+  }
+  .title {
+    font-size: 16px;
+    line-height: 110%;
+    padding-bottom: 2%;
+  }
+  .content {
+    font-size: 15px;
+    padding-left: 2%;
+    line-height: 110%;
+  }
+}
+@media (max-width: 560px) {
+  .card1 > .text_wrapp {
+    padding-top: 40%;
+  }
+  .card2 > .text_wrapp {
+    padding-top: 40%;
+    padding-left: 10%;
+  }
+  .card3 > .text_wrapp {
+    padding-top: 20%;
+    padding-left: 7%;
+  }
+}
+@media (max-width: 500px) {
+  .images {
+    display: none;
+  }
+  .card1 > .text_wrapp {
+    padding: 0;
+    padding-top: 13%;
+    padding-left: 10%;
+    width: 68.5%;
+  }
+  .card2 > .text_wrapp {
+    padding: 0;
+    padding-top: 12%;
+    padding-left: 32%;
+    width: 73%;
+  }
+  .card3 > .text_wrapp {
+    padding: 0;
+    padding-top: 12%;
+    padding-left: 10%;
+    width: 73%;
+  }
+  .card3 {
+    height: 420px;
+  }
+  .gamerules_wrapp {
+    height: 500px;
+    background-size: 80%;
+  }
+  .results_text {
+    font-size: 15px;
+  }
+  .gr_text {
+    font-size: 15px;
+  }
+  .marker {
+    height: 15px;
+  }
+  .gr_text_wrapp {
+    border-radius: 10px;
+    padding: 5%;
+  }
+  .results_wrapp {
+    border-radius: 10px;
+    padding: 5%;
+  }
+  .title {
+    font-size: 18px;
+  }
+  .content {
+    font-size: 17px;
+    padding-left: 1%;
+  }
+}
+@media (max-width: 420px) {
+  .card1 > .text_wrapp {
+    width: 80%;
+  }
+  .card2 > .text_wrapp {
+    padding-left: 25%;
+  }
+  .card3 > .text_wrapp {
+    width: 85%;
+  }
+}
+@media (max-width: 390px) {
+  .card1 > .text_wrapp {
+    padding-top: 20%;
+  }
+  .card2 > .text_wrapp {
+    width: 85%;
+    padding-left: 20%;
+    padding-top: 15%;
+  }
+  .card3 > .text_wrapp {
+    padding-top: 20%;
+    padding-left: 10%;
+    width: 87%;
+  }
+}
+@media (max-width: 350px) {
+  .card1 > .text_wrapp {
+    padding-top: 25%;
+    width: 85%;
+  }
+  .card2 > .text_wrapp {
+    width: 85%;
+    padding-left: 18%;
+    padding-top: 25%;
+  }
+  .card3 > .text_wrapp {
+    padding-top: 22%;
   }
 }

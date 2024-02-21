@@ -193,12 +193,16 @@
     height: 200px;
   }
   .game {
-    width: 90%;
+    width: 80%;
   }
 }
 @media (max-width: 1000px) {
+  .ql {
+    font-size: 64px;
+  }
   .text_circle {
     right: 7%;
+    top: 22%;
   }
 }
 
@@ -234,9 +238,9 @@
   }
 }
 
-@media (max-width: 955px) {
+@media (max-width: 956px) {
   .game {
-    width: 100%;
+    width: 90%;
   }
   .text_circle {
     top: 15%;
@@ -315,7 +319,7 @@
   }
   .text_circle {
     top: 18%;
-    left: 65%;
+    left: 60%;
     height: 250px;
   }
 }
@@ -419,8 +423,8 @@
   .menu_butt {
     left: 98%;
   }
-}@media (max-width: 400px) {
-
+}
+@media (max-width: 400px) {
   .menu_butt {
     left: 95%;
   }
