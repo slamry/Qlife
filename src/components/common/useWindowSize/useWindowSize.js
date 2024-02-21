@@ -11,13 +11,12 @@ function useWindowSize() {
         width: window.innerWidth,
         height: window.innerHeight,
       });
-      console.log(windowSize.width);
     };
     window.addEventListener("resize", handleResize);
     return () => {
       window.removeEventListener("resize", handleResize);
     };
-  }, [windowSize.width]);
+  }, []);
   return windowSize;
 }
 

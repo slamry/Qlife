@@ -409,17 +409,26 @@
     font-size: 11px;
   }
 }
-@media (max-width: 490px) {
+@media (max-width: 495px) {
   .game {
     width: 100%;
   }
   .text_circle {
     height: 25%;
   }
+  .menu_butt {
+    left: 98%;
+  }
+}@media (max-width: 400px) {
+
+  .menu_butt {
+    left: 95%;
+  }
 }
 @media (max-width: 342px) {
   .menu_butt {
     height: 15px;
+    left: 95%;
     width: 15px;
   }
   .ql {

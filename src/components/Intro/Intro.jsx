@@ -17,15 +17,15 @@ const Intro = () => {
           setIsMenuVisible(false);
           document.body.style.overflow = "";
         }}
-        visibleStyle={{ right: "0px" }}
-        hiddenStyle={{ right: "-500px" }}
+        visibleStyle={{ right: "0%" }}
+        hiddenStyle={{ right: "-100%" }}
       />
       {width >= 956 ? (
         <Grid container className={styles.container}>
           <Grid item xs={6}>
-            {/* <Typography color={"white"} fontSize={"10px"}>
+            <Typography color={"white"} fontSize={"7px"}>
               {window.innerWidth}
-            </Typography> */}
+            </Typography>
             <Typography color="primary" className={styles.learn}>
               Узнай новое о себе за веселой игрой
             </Typography>
@@ -87,9 +87,9 @@ const Intro = () => {
       ) : (
         <Grid container className={styles.container}>
           <Grid item xs={12}>
-            {/* <Typography color={"white"} fontSize={"10px"}>
+            <Typography color={"white"} fontSize={"7px"}>
               {window.innerWidth}
-            </Typography> */}
+            </Typography>
             <Typography color="primary" className={styles.learn}>
               Узнай новое о себе за веселой игрой
             </Typography>

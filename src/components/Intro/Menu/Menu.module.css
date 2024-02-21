@@ -10,21 +10,21 @@
   transition: all 0.5s ease;
 }
 .menu_wrapp {
-  padding: 8%;
+  padding: 5%;
   position: fixed;
   height: 100vh;
-  width: 23%;
+  width: 20%;
   right: 0;
   top: 0;
   z-index: 2;
   background-color: #397a37;
   display: flex;
   flex-direction: column;
-  transition: right 0.3s ease;
+  transition: right 0.5s ease;
 }
 .link {
   color: #fff;
-  font-size: 40px;
+  font-size: 35px;
   padding-bottom: 20px;
   transition: all 0.5s ease;
 }
@@ -34,8 +34,8 @@
 .close_butt {
   position: absolute;
   cursor: pointer;
-  top: 10px;
-  right: 0px;
+  top: 0px;
+  left: 80%;
   height: 60px;
   width: 60px;
   z-index: 0;
@@ -51,24 +51,39 @@
     font-size: 25px;
   }
 }
+@media (max-width: 800px) {
+  .link {
+    font-size: 22px;
+  }
+}
 @media (max-width: 700px) {
   .link {
     font-size: 20px;
   }
+  .close_butt {
+    left: 75%;
+  }
 }
-@media (max-width: 600px) {
+@media (max-width: 640px) {
   .link {
     font-size: 17px;
   }
   .close_butt {
+    left: 70%;
     top: 0px;
+  }
+}
+@media (max-width: 550px) {
+  .menu_wrapp {
+    width: 30%;
   }
 }
 @media (max-width: 470px) {
   .link {
-    font-size: 15px;
+    font-size: 12px;
   }
   .close_butt {
-    top: 0px;
+    left: 65%;
+    height: 30px;
   }
 }
