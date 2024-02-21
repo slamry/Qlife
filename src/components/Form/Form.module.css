@@ -93,3 +93,21 @@
   border-radius: 30px;
   z-index: -3;
 }
+.form {
+  width: 600px;
+  height: 1000px;
+  display: flex;
+  align-items: center;
+}
+@media (max-width: 1504px) {
+  .form {
+    width: 550px;
+    height: 1050px;
+  }
+  .colored {
+    width: 550px;
+    height: 1030px;
+    border-radius: 30px;
+    z-index: -3;
+  }
+}

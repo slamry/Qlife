@@ -26,9 +26,7 @@ const AboutUs = () => {
           заполнять все ее сферы. В этом вам поможет игра Quality life!
         </Typography>
         <Box className={s.rect}>
-          <Typography sx={{ fontSize: "20px", fontWeight: "600" }}>
-            Вы получите:
-          </Typography>
+          <Typography className={s.yougot}>Вы получите:</Typography>
           <Typography className={s.point}>
             <img
               src={require("./img/marker.png")}

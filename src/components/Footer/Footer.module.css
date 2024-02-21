@@ -1,8 +1,8 @@
 .wrapp {
-    padding-top: 150px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  padding-top: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .rights {
   color: #ffffff;
@@ -11,8 +11,20 @@
   text-transform: uppercase;
   text-align: center;
 }
-.logos{
-    width: 70px;
-    padding: 10px 10px 0px;
+.logos {
+  width: 70px;
+  padding: 10px 10px 0px;
+}
 
+@media (max-width: 1352px) {
+  .wrapp {
+    padding-top: 150px;
+  }
+  .rights {
+    font-size: 15px;
+  }
+  .logos {
+    width: 45px;
+    padding: 10px 10px 0px;
+  }
 }

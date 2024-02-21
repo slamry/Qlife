@@ -7,7 +7,7 @@
   background-repeat: no-repeat;
   background-position: center center;
   border-radius: 35px;
-  padding: 7% 5%;
+  padding: 60px 30px;
   position: relative;
 }
 .backr:before {
@@ -21,7 +21,10 @@
   background-color: rgba(0, 0, 0, 0.5);
 }
 .grid {
+  display: flex;
   flex-direction: column;
+  align-items: center;
+  align-content: center;
 }
 .title {
   color: #ffffff;
@@ -30,6 +33,17 @@
   text-transform: uppercase;
   text-align: center;
   position: relative;
+}
+@media (max-width: 1352px) {
+  .title {
+    font-size: 30px;
+    font-weight: 700;
+  }
+  /* .backr {
+    background-size: 50% 100%;
+    border-radius: 35px;
+    padding: 60px 30px;
+  } */
 }
 .cards_wrapp {
   padding: 80px 120px 0px;
@@ -64,4 +78,15 @@
   border-color: #a6c954;
   border-style: solid;
   padding: 2%;
+}
+@media (max-width: 1352px) {
+  .title {
+    font-size: 30px;
+    font-weight: 700;
+  }
+  .card_t {
+    padding-top: 15px;
+    font-size: 17px;
+    text-align: center;
+  }
 }

@@ -104,6 +104,50 @@
 .card3 > .text_wrapp {
   transform: rotate(2deg);
 }
+@media (max-width: 1352px) {
+  .card1 {
+    height: 470px;
+    padding: 5% 6%;
+  }
+  .card2 {
+    height: 470px;
+    padding: 4% 4% 0% 8%;
+  }
+  .card3 {
+    height: 470px;
+    padding: 5% 5% 5% 6%;
+  }
+  .title {
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .content {
+    font-size: 18px;
+    line-height: 25px;
+  }
+}
+@media (max-width: 1270px) {
+  .card1 {
+    height: 400px;
+    padding: 5% 6%;
+  }
+  .card2 {
+    height: 400px;
+    padding: 4% 4% 0% 8%;
+  }
+  .card3 {
+    height: 400px;
+    padding: 4% 5% 5% 6%;
+  }
+  .title {
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .content {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
 .back_star {
   position: absolute;
   z-index: -1;
@@ -166,4 +210,16 @@
 .results_text {
   color: #000000;
   font-size: 20px;
+}
+
+@media (max-width: 1352px) {
+  .results_text {
+    font-size: 17px;
+  }
+  .gr_text {
+    font-size: 17px;
+  }
+  .marker {
+    height: 17px;
+  }
 }

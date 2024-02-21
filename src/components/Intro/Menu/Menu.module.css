@@ -10,11 +10,11 @@
   transition: all 0.5s ease;
 }
 .menu_wrapp {
-  padding: 60px;
+  padding: 8%;
   position: fixed;
   height: 100vh;
-  width: 350px;
-  right: 0px;
+  width: 23%;
+  right: 0;
   top: 0;
   z-index: 2;
   background-color: #397a37;
@@ -36,7 +36,39 @@
   cursor: pointer;
   top: 10px;
   right: 0px;
-  height: 100px;
-  width: 100px;
+  height: 60px;
+  width: 60px;
   z-index: 0;
+}
+
+@media (max-width: 1352px) {
+  .link {
+    font-size: 30px;
+  }
+}
+@media (max-width: 1064px) {
+  .link {
+    font-size: 25px;
+  }
+}
+@media (max-width: 700px) {
+  .link {
+    font-size: 20px;
+  }
+}
+@media (max-width: 600px) {
+  .link {
+    font-size: 17px;
+  }
+  .close_butt {
+    top: 0px;
+  }
+}
+@media (max-width: 470px) {
+  .link {
+    font-size: 15px;
+  }
+  .close_butt {
+    top: 0px;
+  }
 }

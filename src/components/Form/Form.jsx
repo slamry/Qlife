@@ -62,12 +62,7 @@ const Form = () => {
             title="form"
             src="https://docs.google.com/forms/d/e/1FAIpQLSd0RleaOAAZuypfgV654ozcNhUzNvY3w7v2cyFrAp8QHrtmXQ/viewform?embedded=true"
             frameBorder="0"
-            style={{
-              width: "600px",
-              height: "1000px",
-              display: "flex",
-              alignItems: "center",
-            }}
+            className={s.form}
           >
             Загрузка…
           </iframe>

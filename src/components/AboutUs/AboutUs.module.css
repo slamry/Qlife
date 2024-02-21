@@ -2,6 +2,7 @@
   flex-direction: row;
   padding-top: 100px;
 }
+
 .hi_text {
   color: #ffffff;
   font-size: 40px;
@@ -28,6 +29,7 @@
   font-weight: 500;
   padding-bottom: 30px;
 }
+
 .rect {
   background-image: url("./img/rect.png");
   background-size: 370px 280px;
@@ -48,15 +50,43 @@
   padding-top: 4px;
   padding-right: 10px;
 }
+.yougot {
+  font-size: 20px;
+  font-weight: 600;
+}
+@media (max-width: 1352px) {
+  .rect {
+    background-size: 300px 220px;
+    border-radius: 15px;
+    padding: 50px 50px;
+    padding-right: 250px;
+  }
+  .point {
+    font-size: 15px;
+  }
+  .marker {
+    height: 15px;
+    padding-top: 4px;
+    padding-right: 7px;
+  }
+  .yougot {
+    font-size: 16px;
+  }
+}
 .grid_images {
   position: relative;
   display: flex;
   align-items: flex-end;
   background-image: url("./img/liliya.png");
   background-size: 660px 930px;
-  background-repeat: cover;
+  background-repeat: no-repeat;
   background-position: center center;
   /* padding-bottom: 20px; */
+}
+@media (max-width: 1352px) {
+  .grid_images {
+    background-size: 520px 720px;
+  }
 }
 .mbag {
   position: absolute;
@@ -82,7 +112,42 @@
   transform: rotate(5deg);
   padding: 25px 30px;
 }
+@media (max-width: 1392px) {
+  .text_wrapp {
+    /* padding: 30px 30px; */
+    margin-bottom: 30px;
+  }
+}
 .text {
   font-size: 26px;
   font-weight: 600;
+}
+
+@media (max-width: 1352px) {
+  .hi_text {
+    font-size: 35px;
+    line-height: 45px;
+  }
+  .desc {
+    padding: 15px 0px;
+    font-size: 15px;
+  }
+  .content {
+    padding: 15px 0px;
+    font-size: 15px;
+  }
+  .under_content {
+    font-size: 15px;
+    padding-bottom: 30px;
+  }
+  .text_wrapp {
+    margin-bottom: 0px;
+  }
+  .text {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .mbag {
+    height: 100px;
+  }
 }
