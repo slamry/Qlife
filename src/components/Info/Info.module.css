@@ -298,6 +298,7 @@
   }
   .card3 > .text_wrapp {
     padding-top: 3%;
+    padding-right: 6%;
   }
   .title {
     font-size: 20px;
@@ -322,7 +323,7 @@
     left: 5%;
   }
   .hand {
-    height: 140px;
+    height: 200px;
     padding-left: 0%;
     padding-top: 0%;
   }
@@ -398,11 +399,19 @@
     padding-right: 0%;
   }
 }
+@media (max-width: 684px) {
+  .text_under_ql {
+    font-size: 15px;
+  }
+}
 @media (max-width: 660px) {
   .card3 > .text_wrapp {
     padding-top: 7%;
     padding-right: 0%;
     padding-left: 5%;
+  }
+  .hand {
+    height: 170px;
   }
   .mbag {
     height: 30%;
@@ -410,9 +419,6 @@
   }
   .star {
     height: 60%;
-  }
-  .hand {
-    height: 100px;
   }
   .item__gr_text_wrapp {
     padding: 0% 0% 7% 1%;
@@ -444,9 +450,12 @@
     line-height: 130%;
   }
 }
-@media (max-width: 595px) {
+@media (max-width: 600px) {
   .card1 > .text_wrapp {
     padding-top: 30%;
+  }
+  .text_under_ql {
+    font-size: 12px;
   }
   .card2 > .text_wrapp {
     padding-top: 30%;
@@ -507,7 +516,7 @@
     padding: 0;
     padding-top: 12%;
     padding-left: 10%;
-    width: 73%;
+    width: 70%;
   }
   .card3 {
     height: 420px;
@@ -579,5 +588,11 @@
   }
   .card3 > .text_wrapp {
     padding-top: 22%;
+  }
+  .ql {
+    font-size: 35px;
+  }
+  .text_under_ql {
+    font-size: 10px;
   }
 }
