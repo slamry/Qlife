@@ -1,5 +1,5 @@
 .wrapp {
-  padding-top: 150px;
+  padding-top: 20%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -17,14 +17,35 @@
 }
 
 @media (max-width: 1352px) {
-  .wrapp {
-    padding-top: 150px;
-  }
   .rights {
     font-size: 15px;
   }
   .logos {
     width: 45px;
     padding: 10px 10px 0px;
+  }
+}
+@media (max-width: 677px) {
+  .rights {
+    font-size: 10px;
+  }
+  .logos {
+    width: 30px;
+    padding: 10px 10px 0px;
+  }
+}
+@media (max-width: 460px) {
+  .logos {
+    width: 30px;
+    padding: 5% 5% 0%;
+  }
+}
+@media (max-width: 366px) {
+  .rights {
+    padding: 5%;
+  }
+  .logos {
+    width: 25px;
+    padding: 5% 5% 0%;
   }
 }

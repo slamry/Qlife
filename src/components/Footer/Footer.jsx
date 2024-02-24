@@ -6,7 +6,7 @@ const Footer = () => {
     <Box className={s.wrapp} id="contacts">
       <Box>
         <Typography className={s.rights}>
-          2024, Все права <br /> защищены
+          2024, Все права защищены
         </Typography>
       </Box>
       <Box>
