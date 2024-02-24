@@ -34,23 +34,10 @@
   text-align: center;
   position: relative;
 }
-@media (max-width: 1352px) {
-  .title {
-    font-size: 30px;
-    font-weight: 700;
-  }
-  /* .backr {
-    background-size: 50% 100%;
-    border-radius: 35px;
-    padding: 60px 30px;
-  } */
-}
 .cards_wrapp {
   padding: 80px 120px 0px;
   display: flex;
-  /* justify-content: space-between; */
   position: relative;
-  /* align-items: center; */
 }
 .card_wrapp {
   margin-top: 20px;
@@ -58,7 +45,6 @@
   border-radius: 15px;
   width: 150px;
   background-color: #ffffff;
-  background-position: center center;
   border-color: #a6c954;
   border-style: solid;
   padding: 30px 20px;
@@ -73,12 +59,22 @@
 }
 .image {
   height: 40px;
-  border-radius: 50%;
-  border-width: 3px;
-  border-color: #a6c954;
-  border-style: solid;
+  width: 50px;
   padding: 2%;
 }
+#card1 {
+  transform: rotate(5deg);
+  margin-right: 200px;
+}
+#card2 {
+  transform: rotate(-5deg);
+  margin-right: 200px;
+}
+#card3 {
+  transform: rotate(5deg);
+}
+
+/*///////////////////////////////////////*/
 @media (max-width: 1352px) {
   .title {
     font-size: 30px;
@@ -87,6 +83,233 @@
   .card_t {
     padding-top: 15px;
     font-size: 17px;
-    text-align: center;
+  }
+}
+@media (max-width: 1101px) {
+  .card_wrapp {
+    width: 130px;
+    padding: 20px 10px;
+  }
+}
+/*            TABLET VIEW                 */
+@media (max-width: 957px) {
+  .cards_wrapp {
+    padding: 10% 10% 0%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    position: relative;
+  }
+  #card1 {
+    margin-right: 30%;
+  }
+  #card2 {
+    margin-right: 0;
+  }
+  #card3 {
+    margin-top: 10%;
+    margin-left: 31%;
+  }
+  .card_wrapp {
+    width: 150px;
+    padding: 30px 20px;
+  }
+  .card_t {
+    padding-top: 15px;
+    font-size: 18px;
+  }
+  .backr {
+    background-size: 100% 100%;
+    border-radius: 35px;
+    padding: 5% 5%;
+  }
+  .title {
+    font-size: 30px;
+  }
+}
+@media (max-width: 875px) {
+  .cards_wrapp {
+    padding: 10% 5% 0%;
+  }
+}
+@media (max-width: 775px) {
+  .cards_wrapp {
+    padding: 10% 3% 0%;
+  }
+}
+@media (max-width: 745px) {
+  .cards_wrapp {
+    padding: 10% 0% 0%;
+  }
+  .title {
+    font-size: 25px;
+  }
+}
+@media (max-width: 698px) {
+  .card_t {
+    padding-top: 15%;
+    font-size: 15px;
+  }
+  .card_wrapp {
+    width: 150px;
+    height: 100px;
+    padding: 35px 10px;
+  }
+}
+@media (max-width: 656px) {
+  .backr {
+    border-radius: 20px;
+    padding: 7% 5%;
+  }
+  .backr:before {
+    border-radius: 20px;
+  }
+}
+@media (max-width: 635px) {
+  #card1 {
+    margin-right: 28%;
+  }
+}
+@media (max-width: 620px) {
+  #card3 {
+    margin-top: 10%;
+    margin-left: 33%;
+  }
+}
+@media (max-width: 612px) {
+  #card1 {
+    margin-right: 25%;
+  }
+}
+@media (max-width: 600px) {
+  #card1 {
+    margin-right: 20%;
+  }
+}
+@media (max-width: 579px) {
+  .title {
+    font-size: 20px;
+  }
+  #card3 {
+    margin-left: 35%;
+  }
+}
+@media (max-width: 553px) {
+  #card1 {
+    margin-right: 17%;
+  }
+}
+@media (max-width: 534px) {
+  .card_t {
+    margin-top: 30%;
+    font-size: 15px;
+  }
+  .card_wrapp {
+    width: 130px;
+    height: 90px;
+    padding: 35px 10px;
+    margin-top: 10%;
+  }
+}
+@media (max-width: 487px) {
+  .title {
+    font-size: 20px;
+  }
+  #card1 {
+    margin-right: 13%;
+  }
+  #card2 {
+    margin-top: 13%;
+  }
+  #card3 {
+    margin-left: 37%;
+  }
+  .card_wrapp {
+    width: 120px;
+  }
+  .card_t {
+    margin-top: 35%;
+    font-size: 15px;
+  }
+}
+@media (max-width: 470px) {
+  .title {
+    font-size: 18px;
+  }
+  .backr {
+    border-radius: 23px;
+    padding: 7% 5%;
+    width: 95%;
+  }
+  .backr:before {
+    border-radius: 23px;
+  }
+}
+@media (max-width: 458px) {
+  #card3 {
+    margin-left: 39%;
+  }
+}
+@media (max-width: 445px) {
+  .title {
+    font-size: 13px;
+  }
+  .card_t {
+    margin-top: 40%;
+    font-size: 12px;
+  }
+  #card3 {
+    margin-left: 42%;
+  }
+}
+@media (max-width: 421px) {
+  #card1 {
+    margin-right: 16%;
+  }
+  .card_wrapp {
+    width: 110px;
+  }
+  #card3 {
+    margin-left: 44%;
+  }
+}
+@media (max-width: 405px) {
+  #card1 {
+    margin-right: 10%;
+  }
+  .title {
+    font-size: 12px;
+  }
+  .backr {
+    border-radius: 12px;
+    padding: 7% 5%;
+    width: 94%;
+  }
+  .backr:before {
+    border-radius: 12px;
+  }
+}
+@media (max-width: 380px) {
+  .card_wrapp {
+    width: 90px;
+  }
+  #card3 {
+    margin-left: 48%;
+  }
+}
+@media (max-width: 357px) {
+  #card1 {
+    margin-top: 13%;
+  }
+  #card3 {
+    margin-left: 52%;
+  }
+}
+@media (max-width: 323px) {
+  #card1 {
+    margin-right: 7%;
+  }
+  #card3 {
+    margin-left: 55%;
   }
 }
