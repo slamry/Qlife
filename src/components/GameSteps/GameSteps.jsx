@@ -27,7 +27,7 @@ const GameSteps = () => {
           src={require("./img/hand.png")}
           alt=""
         />
-        <svg id={styles.svg1}>
+        <svg id={styles.svg1} className={styles.svg}>
           <path
             d={
               width > 1152
@@ -60,7 +60,7 @@ const GameSteps = () => {
           src={require("./img/shoe.png")}
           alt=""
         />
-        <svg id={styles.svg2}>
+        <svg id={styles.svg2} className={styles.svg}>
           <path
             d={
               width > 1152
@@ -99,7 +99,7 @@ const GameSteps = () => {
           src={require("./img/apple.png")}
           alt=""
         />
-        <svg id={styles.svg3}>
+        <svg id={styles.svg3} className={styles.svg}>
           <path
             d={
               width > 1152
@@ -145,7 +145,7 @@ const GameSteps = () => {
           src={require("./img/mbag.png")}
           alt=""
         />
-        <svg id={styles.svg4}>
+        <svg id={styles.svg4} className={styles.svg}>
           <path
             d={
               width > 1152
@@ -180,7 +180,7 @@ const GameSteps = () => {
             на практике.
           </Typography>
         </Box>
-        <svg id={styles.svg5}>
+        <svg id={styles.svg5} className={styles.svg}>
           {width > 1152 ? (
             <circle cx="378" cy="10" r="10" fill="#a6c954" /> // не трогать
           ) : (

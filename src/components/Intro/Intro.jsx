@@ -23,9 +23,6 @@ const Intro = () => {
       {width > 957 ? (
         <Grid container className={styles.container}>
           <Grid item xs={6}>
-            <Typography color={"white"} fontSize={"7px"}>
-              {window.innerWidth}
-            </Typography>
             <Typography color="primary" className={styles.learn}>
               Узнай новое о себе за веселой игрой
             </Typography>
