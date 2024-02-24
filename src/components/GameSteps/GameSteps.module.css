@@ -118,7 +118,7 @@ svg {
   padding-top: 20px;
   padding-left: 560px;
   transform: rotate(357deg);
-  width: 650px;
+  width: 590px;
 }
 #rect5 {
   padding-right: 300px;
@@ -323,7 +323,7 @@ svg {
   }
 }
 @media (max-width: 570px) {
-  #rect1{
+  #rect1 {
     padding-bottom: 5%;
   }
 }
@@ -373,7 +373,7 @@ svg {
   }
 }
 @media (max-width: 437px) {
-  #rect4{
+  #rect4 {
     padding-bottom: 5%;
   }
 }
@@ -387,7 +387,8 @@ svg {
   .title {
     font-size: 25px;
     margin-bottom: 5%;
-  }  #shoe {
+  }
+  #shoe {
     top: -20%;
     left: 0%;
     height: 25%;
@@ -399,12 +400,17 @@ svg {
   }
 }
 @media (max-width: 399px) {
-  #rect1{
+  #rect1 {
     padding-bottom: 7%;
   }
   #mbag {
     top: -25%;
     left: 0%;
     height: 35%;
+  }
+}
+@media (max-width: 338px) {
+  #rect1 {
+    padding-bottom: 20%;
   }
 }

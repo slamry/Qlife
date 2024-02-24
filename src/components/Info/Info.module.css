@@ -596,3 +596,8 @@
     font-size: 10px;
   }
 }
+@media (max-width: 320px) {
+  .card2 > .text_wrapp {
+    width: 88%;
+  }
+}
