@@ -170,7 +170,7 @@
   }
 }
 /*            TABLET VIEW                 */
-@media (max-width: 956px) {
+@media (max-width: 957px) {
   .wrapp {
     flex-direction: column;
   }
@@ -239,6 +239,10 @@
 @media (max-width: 650px) {
   .form {
     height: 970px;
+  }
+  .cubes {
+    height: 11%;
+    top: 65%;
   }
 }
 @media (max-width: 621px) {

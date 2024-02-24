@@ -50,7 +50,7 @@ const Form = () => {
 
   return (
     <Grid container className={s.wrapp}>
-      {width > 956 ? (
+      {width > 957 ? (
         <Grid item xs={4.5} className={s.content_wrapp}>
           <Typography className={s.title}>
             Хватит существовать без плана!
@@ -77,7 +77,7 @@ const Form = () => {
           <img className={s.apple} alt="" src={require("./img/apple.png")} />
         </Grid>
       )}
-      {width > 956 ? (
+      {width > 957 ? (
         <Grid item xs={7.5} className={s.form_wrapp} id="form">
           <iframe
             scrolling="no"

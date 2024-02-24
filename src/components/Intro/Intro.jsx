@@ -20,7 +20,7 @@ const Intro = () => {
         visibleStyle={{ right: "0%" }}
         hiddenStyle={{ right: "-100%" }}
       />
-      {width > 956 ? (
+      {width > 957 ? (
         <Grid container className={styles.container}>
           <Grid item xs={6}>
             <Typography color={"white"} fontSize={"7px"}>

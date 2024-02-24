@@ -8,7 +8,7 @@ const Info = () => {
 
   return (
     <Box className={styles.wrapp} id="info">
-      {width > 956 ? (
+      {width > 957 ? (
         <Box>
           <Grid container>
             <Grid item xs={6}>

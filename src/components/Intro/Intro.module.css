@@ -9,6 +9,7 @@
   font-size: 90px;
   color: white;
   letter-spacing: -4px;
+  text-wrap: nowrap;
   /* text-wrap: wrap; */
 }
 .become {
@@ -136,6 +137,21 @@
   flex-wrap: wrap;
   justify-content: center;
 }
+@media (width> 1690px) {
+  .text_circle {
+    top: 30%;
+  }
+}
+@media (width> 2200px) {
+  .text_circle {
+    top: 25%;
+    right: 10%;
+    height: 50%;
+  }
+  .game {
+    width: 90%;
+  }
+}
 @media (max-width: 1400px) {
   .text_circle {
     top: 27%;
@@ -238,7 +254,7 @@
   }
 }
 
-@media (max-width: 956px) {
+@media (max-width: 957px) {
   .game {
     width: 90%;
   }
