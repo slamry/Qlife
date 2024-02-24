@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/Qlife/static/css/main.4b3a2c01.css",
-    "main.js": "/Qlife/static/js/main.39f714e5.js",
+    "main.css": "/Qlife/static/css/main.895d2d33.css",
+    "main.js": "/Qlife/static/js/main.a7aacdcd.js",
     "static/media/game.png": "/Qlife/static/media/game.e2119400f85c51bc4f5e.png",
-    "static/media/liliya.png": "/Qlife/static/media/liliya.775939fd16e3e9056f28.png",
+    "static/media/liliya.png": "/Qlife/static/media/liliya.e5750e724a6804a3e841.png",
     "static/media/gamerules.png": "/Qlife/static/media/gamerules.9cfe50e7c3ba14800c03.png",
     "static/media/card2.png": "/Qlife/static/media/card2.a9b6fee6fe6e180cfd9f.png",
     "static/media/card1.png": "/Qlife/static/media/card1.34e4012baeba53d30970.png",
@@ -21,11 +21,11 @@
     "static/media/apple.png": "/Qlife/static/media/apple.a78b3b89978e9b7d36d7.png",
     "static/media/text.png": "/Qlife/static/media/text.490dac9c6804b5ae16df.png",
     "index.html": "/Qlife/index.html",
-    "main.4b3a2c01.css.map": "/Qlife/static/css/main.4b3a2c01.css.map",
-    "main.39f714e5.js.map": "/Qlife/static/js/main.39f714e5.js.map"
+    "main.895d2d33.css.map": "/Qlife/static/css/main.895d2d33.css.map",
+    "main.a7aacdcd.js.map": "/Qlife/static/js/main.a7aacdcd.js.map"
   },
   "entrypoints": [
-    "static/css/main.4b3a2c01.css",
-    "static/js/main.39f714e5.js"
+    "static/css/main.895d2d33.css",
+    "static/js/main.a7aacdcd.js"
   ]
 }
