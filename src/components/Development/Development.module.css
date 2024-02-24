@@ -127,12 +127,12 @@
     font-size: 30px;
   }
 }
-@media (max-width: 875px) {
+@media (max-width: 876px) {
   .cards_wrapp {
     padding: 10% 5% 0%;
   }
 }
-@media (max-width: 775px) {
+@media (max-width: 779px) {
   .cards_wrapp {
     padding: 10% 3% 0%;
   }
@@ -145,7 +145,7 @@
     font-size: 25px;
   }
 }
-@media (max-width: 698px) {
+@media (max-width: 700px) {
   .card_t {
     padding-top: 15%;
     font-size: 15px;
@@ -199,7 +199,7 @@
     margin-right: 17%;
   }
 }
-@media (max-width: 534px) {
+@media (max-width: 536px) {
   .card_t {
     margin-top: 30%;
     font-size: 15px;

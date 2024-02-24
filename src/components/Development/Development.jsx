@@ -10,7 +10,7 @@ const Development = () => {
     <Box className={s.wrapp}>
       <Grid container className={s.grid}>
         <Grid item className={s.backr}>
-          <Typography className={s.title}>
+          <Typography className={s.title} id="aboutus">
             Наша игра уже в нескольких странах и мы активно развиваем ее по
             всему миру!
           </Typography>
@@ -20,9 +20,9 @@ const Development = () => {
             <Box className={s.image}>
               <svg
                 viewBox={
-                  width > 696
+                  width > 700
                     ? `-150 -800 3800 3000`
-                    : width > 534
+                    : width > 536
                     ? `-150 -800 3800 3000`
                     : width > 380
                     ? `-80 -900 3000 3000`
@@ -49,9 +49,9 @@ const Development = () => {
             <Box className={s.image}>
               <svg
                 viewBox={
-                  width > 696
+                  width > 700
                     ? `-150 -800 4000 3200`
-                    : width > 534
+                    : width > 536
                     ? `-150 -600 4000 3200`
                     : width > 380
                     ? `-70 -830 3000 3000`
@@ -78,9 +78,9 @@ const Development = () => {
             <Box className={s.image}>
               <svg
                 viewBox={
-                  width > 696
+                  width > 700
                     ? `-150 -800 4000 3200`
-                    : width > 534
+                    : width > 536
                     ? `-150 -600 4000 3200`
                     : width > 380
                     ? `-70 -900 3000 3000`
@@ -103,16 +103,16 @@ const Development = () => {
             </Box>
             <Typography className={s.card_t}>Более 300 игр в месяц</Typography>
           </Box>
-          <svg id="aboutus">
+          <svg>
             <path
               d={
                 width > 1100
                   ? "M 200, 30 C 300, 0 320, 0, 400, 30"
                   : width > 957
                   ? "M 170, 30 C 270, 0 270, 0, 350, 30"
-                  : width > 697
+                  : width > 700
                   ? "M 200, 30 C 250, 0 320, 0, 370, 30"
-                  : width > 534
+                  : width > 536
                   ? "M 120, 20 C 170, 0 300, 0, 330, 25"
                   : width > 380
                   ? "M 100, 40 C 170, 0 210, 0, 270, 40"
@@ -127,9 +127,9 @@ const Development = () => {
               <circle cx="200" cy="30" r="10" fill="#a6c954" />
             ) : width > 957 ? (
               <circle cx="170" cy="30" r="10" fill="#a6c954" />
-            ) : width > 697 ? (
+            ) : width > 700 ? (
               <circle cx="200" cy="30" r="10" fill="#a6c954" />
-            ) : width > 534 ? (
+            ) : width > 536 ? (
               <circle cx="120" cy="20" r="10" fill="#a6c954" />
             ) : width > 380 ? (
               <circle cx="100" cy="40" r="10" fill="#a6c954" />
@@ -140,9 +140,9 @@ const Development = () => {
               <circle cx="400" cy="30" r="10" fill="#a6c954" />
             ) : width > 957 ? (
               <circle cx="350" cy="30" r="10" fill="#a6c954" />
-            ) : width > 697 ? (
+            ) : width > 700 ? (
               <circle cx="370" cy="30" r="10" fill="#a6c954" />
-            ) : width > 534 ? (
+            ) : width > 536 ? (
               <circle cx="330" cy="25" r="10" fill="#a6c954" />
             ) : width > 380 ? (
               <circle cx="270" cy="40" r="10" fill="#a6c954" />
@@ -159,7 +159,7 @@ const Development = () => {
                     ? "M 600, 200 C 670, 230 700, 230, 790, 200"
                     : width > 957
                     ? "M 525, 170 C 610, 200 630, 200, 705, 170"
-                    : width > 697
+                    : width > 700
                     ? "M 490, 210 C 520, 300 450, 400, 380, 380"
                     : "M 430, 195 C 470, 250 400, 350, 340, 350"
                 }
@@ -172,7 +172,7 @@ const Development = () => {
                 <circle cx="600" cy="200" r="10" fill="#a6c954" />
               ) : width > 957 ? (
                 <circle cx="525" cy="170" r="10" fill="#a6c954" />
-              ) : width > 697 ? (
+              ) : width > 700 ? (
                 <circle cx="490" cy="210" r="10" fill="#a6c954" />
               ) : (
                 <circle cx="430" cy="195" r="10" fill="#a6c954" />
@@ -181,7 +181,7 @@ const Development = () => {
                 <circle cx="790" cy="200" r="10" fill="#a6c954" />
               ) : width > 957 ? (
                 <circle cx="705" cy="170" r="10" fill="#a6c954" />
-              ) : width > 697 ? (
+              ) : width > 700 ? (
                 <circle cx="380" cy="380" r="10" fill="#a6c954" />
               ) : (
                 <circle cx="340" cy="350" r="10" fill="#a6c954" />
@@ -191,7 +191,7 @@ const Development = () => {
             <svg>
               <path
                 d={
-                  width > 534
+                  width > 536
                     ? "M 100, 200 C 70, 300 90, 320, 150, 330"
                     : "M 70, 210 C 70, 300 90, 320, 140, 330"
                 }
@@ -200,12 +200,12 @@ const Development = () => {
                 strokeDasharray="10"
                 strokeWidth="5"
               />
-              {width > 534 ? (
+              {width > 536 ? (
                 <circle cx="100" cy="200" r="10" fill="#a6c954" />
               ) : (
                 <circle cx="70" cy="210" r="10" fill="#a6c954" />
               )}
-              {width > 534 ? (
+              {width > 536 ? (
                 <circle cx="150" cy="330" r="10" fill="#a6c954" />
               ) : (
                 <circle cx="140" cy="330" r="10" fill="#a6c954" />
