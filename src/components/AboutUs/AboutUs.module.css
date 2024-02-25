@@ -1,6 +1,6 @@
 .grid_c {
   flex-direction: row;
-  padding-top: 100px;
+  padding-top: 10%;
 }
 .hi_text {
   color: #ffffff;
@@ -91,10 +91,30 @@
 }
 
 /*/////////////////////////////////////////////////////////////////*/
-
+@media (max-width: 1411px) {
+  .liliya {
+    height: 105%;
+  }
+}
 @media (max-width: 1352px) {
   .mbag_wrapp {
     padding-top: 5%;
+  }
+}
+@media (max-width: 1348px) {
+  .liliya {
+    height: 100%;
+  }
+}
+@media (max-width: 1305px) {
+  .rect {
+    padding-right: 36%;
+  }
+  .liliya {
+    height: 90%;
+  }
+  .grid_images {
+    padding-bottom: 10%;
   }
 }
 @media (max-width: 1281px) {
@@ -134,19 +154,61 @@
     font-size: 17px;
   }
 }
+@media (max-width: 1167px) {
+  .liliya {
+    height: 90%;
+  }
+  .grid_images {
+    padding-bottom: 15%;
+  }
+}
+@media (max-width: 1041px) {
+  .liliya {
+    height: 90%;
+  }
+  .grid_images {
+    padding-bottom: 10%;
+  }
+  .mbag {
+    height: 13%;
+  }
+  .text {
+    font-size: 20px;
+  }
+  .hi_text {
+    font-size: 35px;
+    line-height: 120%;
+  }
+  .point,
+  .yougot,
+  .under_content,
+  .content,
+  .desc {
+    font-size: 16px;
+  }
+  .marker {
+    height: 17px;
+  }
+}
 @media (max-width: 1015px) {
   .rect {
     padding-right: 33%;
     background-size: 67% 100%;
-  }
-  .mbag {
-    height: 13%;
   }
 }
 @media (max-width: 969px) {
   .rect {
     padding-right: 35%;
     background-size: 70% 100%;
+  }
+  .liliya {
+    height: 87%;
+  }
+  .mbag {
+    height: 10%;
+  }
+  .grid_images {
+    padding-bottom: 15%;
   }
 }
 
@@ -159,7 +221,7 @@
   }
   .liliya {
     position: relative;
-    height: 100%;
+    height: 900px;
   }
   .grid_images {
     display: flex;
@@ -182,22 +244,16 @@
   .desc {
     font-size: 25px;
   }
+  .point,
+  .yougot,
+  .under_content,
   .content {
-    font-size: 20px;
-  }
-  .under_content {
-    font-size: 20px;
-  }
-  .point {
     font-size: 20px;
   }
   .marker {
     height: 20px;
     padding-top: 1.1%;
     padding-right: 3%;
-  }
-  .yougot {
-    font-size: 20px;
   }
   .rect {
     margin-top: 7%;
@@ -213,40 +269,16 @@
     top: 25%;
     right: 0%;
     height: 60%;
-    /* height: 100px; */
   }
 }
 @media (max-width: 876px) {
   .liliya {
-    /* display: block; */
     height: 900px;
   }
-  .text {
-    font-size: 20px;
-  }
-  .hi_text {
-    font-size: 35px;
-    line-height: 120%;
-  }
-  .desc {
-    font-size: 17px;
-  }
-  .content {
-    font-size: 17px;
-  }
-  .under_content {
-    font-size: 17px;
-  }
-  .point {
-    font-size: 17px;
-  }
-  .marker {
-    height: 17px;
-    padding-top: 1.1%;
-    padding-right: 3%;
-  }
-  .yougot {
-    font-size: 17px;
+}
+@media (max-width: 794px) {
+  .rect {
+    padding-right: 46%;
   }
 }
 @media (max-width: 788px) {
@@ -254,7 +286,7 @@
     padding-right: 50%;
   }
 }
-@media (max-width: 743px) {
+@media (max-width: 747px) {
   .rect {
     margin-top: 7%;
     padding-right: 45%;
@@ -268,90 +300,135 @@
     font-size: 25px;
   }
 }
+@media (max-width: 710px) {
+  .rect {
+    padding-right: 40%;
+  }
+}
+@media (max-width: 679px) {
+  .mbag {
+    top: 25%;
+    height: 45%;
+    /* right: 0; */
+  }
+  .liliya {
+    height: 850px;
+  }
+}
 @media (max-width: 666px) {
   .rect {
     padding-right: 40%;
     background-size: 65% 100%;
   }
 }
-@media (max-width: 570px) {
+@media (max-width: 641px) {
+  .mbag {
+    top: 25%;
+    height: 45%;
+    /* right: 0; */
+  }
   .liliya {
     height: 800px;
   }
 }
-@media (max-width: 538px) {
+@media (max-width: 624px) {
+  .mbag {
+    top: 25%;
+    height: 35%;
+  }
+  .rect {
+    padding-right: 32%;
+    background-size: 70% 100%;
+  }
+}
+@media (max-width: 608px) {
+  .liliya {
+    height: 750px;
+  }
+}
+@media (max-width: 569px) {
   .liliya {
     height: 700px;
   }
+}
+@media (max-width: 560px) {
+  .mbag {
+    top: 25%;
+    height: 35%;
+  }
+  .rect {
+    padding-right: 27%;
+    background-size: 75% 100%;
+  }
+}
+@media (max-width: 532px) {
+  .liliya {
+    height: 650px;
+  }
+  .mbag {
+    top: 0;
+    height: 30%;
+  }
+  .rect {
+    margin-top: 15%;
+    padding: 15% 5% 15% 10%;
+    background-size: 100% 100%;
+  }
   .text {
-    font-size: 17px;
+    font-size: 20px;
+  }
+}
+@media (max-width: 495px) {
+  .liliya {
+    height: 550px;
   }
   .hi_text {
     font-size: 30px;
     line-height: 120%;
   }
   .desc {
-    font-size: 15px;
-  }
-  .content {
-    font-size: 15px;
-  }
-  .under_content {
-    font-size: 15px;
-  }
-  .point {
-    font-size: 15px;
-  }
-  .marker {
-    height: 15px;
-  }
-  .yougot {
-    font-size: 15px;
-  }
-}
-@media (max-width: 452px) {
-  .liliya {
-    height: 500px;
-  }
-  .rect {
-    padding-right: 33%;
-    background-size: 70% 100%;
-  }
-  .mbag {
-    top: 25%;
-    height: 40%;
-  }
-}
-@media (max-width: 400px) {
-  .text {
-    font-size: 15px;
-  }
-  .hi_text {
-    font-size: 25px;
+    font-size: 20px;
     line-height: 120%;
   }
-  .desc {
-    font-size: 12px;
-  }
+  .point,
+  .yougot,
+  .under_content,
   .content {
-    font-size: 12px;
-  }
-  .under_content {
-    font-size: 12px;
-  }
-  .point {
-    font-size: 12px;
-  }
-  .marker {
-    height: 12px;
-  }
-  .yougot {
-    font-size: 12px;
+    font-size: 20px;
+    line-height: 120%;
   }
 }
-@media (max-width: 333px) {
- 
+@media (max-width: 419px) {
+  .liliya {
+    height: 450px;
+  }
+}
+@media (max-width: 395px) {
   .rect {
-    padding-right: 27%;
-    background-size: 75% 100%;
-  }}
+    margin-top: 15%;
+    padding: 15% 5% 15% 10%;
+    background-size: 100% 100%;
+  }
+  .point,
+  .yougot {
+    font-size: 17px;
+    line-height: 120%;
+  }
+  .marker {
+    height: 17px;
+  }
+}
+@media (max-width: 371px) {
+  .liliya {
+    height: 400px;
+  }
+  .text {
+    font-size: 20px;
+    font-weight: 500;
+  }
+}
+@media (max-width: 350px) {
+  .rect {
+    padding: 15% 3% 15% 7%;
+  }
+}

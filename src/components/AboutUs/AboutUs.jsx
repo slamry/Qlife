@@ -5,6 +5,7 @@ import useWindowSize from "../common/useWindowSize/useWindowSize";
 const AboutUs = () => {
   // eslint-disable-next-line
   const { width, height } = useWindowSize();
+  // alert(width)
   return (
     <Grid container className={s.grid_c}>
       <Grid item xs={width > 957 ? 6 : 12}>
@@ -71,7 +72,7 @@ const AboutUs = () => {
           </Typography>
         </Box>
         {width > 957 ? null : (
-          <Box sx={{display:'flex', flexWrap:'nowrap'}}>
+          <Box sx={{ display: "flex", flexWrap: "nowrap" }}>
             <Box className={s.rect}>
               <Typography className={s.yougot}>Вы получите:</Typography>
               <Typography className={s.point}>

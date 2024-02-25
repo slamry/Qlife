@@ -228,8 +228,8 @@
     height: 80px;
   }
   .card_t {
-    font-size: 15px;
-    line-height: 120%;
+    font-size: 20px;
+    line-height: 88%;
   }
   .backr {
     padding: 6%;
@@ -263,7 +263,7 @@
     padding-right: 10%;
   }
   .title {
-    font-size: 21px;
+    font-size: 20px;
   }
 }
 @media (max-width: 380px) {
