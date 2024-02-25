@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Qlife/static/css/main.0e4b310a.css",
+    "main.css": "/Qlife/static/css/main.30fe8018.css",
     "main.js": "/Qlife/static/js/main.a2900e5f.js",
     "static/media/game.png": "/Qlife/static/media/game.e2119400f85c51bc4f5e.png",
     "static/media/liliya.png": "/Qlife/static/media/liliya.e5750e724a6804a3e841.png",
@@ -21,11 +21,11 @@
     "static/media/apple.png": "/Qlife/static/media/apple.a78b3b89978e9b7d36d7.png",
     "static/media/text.png": "/Qlife/static/media/text.490dac9c6804b5ae16df.png",
     "index.html": "/Qlife/index.html",
-    "main.0e4b310a.css.map": "/Qlife/static/css/main.0e4b310a.css.map",
+    "main.30fe8018.css.map": "/Qlife/static/css/main.30fe8018.css.map",
     "main.a2900e5f.js.map": "/Qlife/static/js/main.a2900e5f.js.map"
   },
   "entrypoints": [
-    "static/css/main.0e4b310a.css",
+    "static/css/main.30fe8018.css",
     "static/js/main.a2900e5f.js"
   ]
 }
