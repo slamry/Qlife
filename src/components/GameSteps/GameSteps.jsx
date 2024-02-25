@@ -5,14 +5,10 @@ import useWindowSize from "../common/useWindowSize/useWindowSize";
 const GameSteps = () => {
   // eslint-disable-next-line
   const { width, height } = useWindowSize();
-
+  // alert(width);
   return (
     <Box className={styles.wrapp} id="gsteps">
       <Typography className={styles.title}>Как проходит игра</Typography>
-      {/* {width > 956 ? <Box>
-        
-      </Box> : <Box></Box>} */}
-
       <Box className={styles.rect_wrapp} id={styles.rect1}>
         <Box className={styles.rect}>
           <Typography className={styles.content_t}>
@@ -27,26 +23,30 @@ const GameSteps = () => {
           src={require("./img/hand.png")}
           alt=""
         />
-        <svg id={styles.svg1} className={styles.svg}>
-          <path
-            d={
-              width > 1152
-                ? "M 675, 10 C 800, 0 900, 0, 900, 130" // не трогать
-                : "M 575, 10 C 600, 0 700, 0, 700, 130"
-            }
-            stroke="#a6c954"
-            fill="transparent"
-            strokeDasharray="10"
-            strokeWidth="5"
-          />
-          {width > 1152 ? (
-            <circle cx="675" cy="10" r="10" fill="#a6c954" /> // не трогать
-          ) : (
-            <circle cx="575" cy="10" r="10" fill="#a6c954" />
-          )}
-        </svg>
       </Box>
-
+      <svg
+        id={styles.svg1}
+        className={styles.svg}
+        viewBox={
+          width > 1236
+            ? "70 -115 1000 1000"
+            : width > 1126
+            ? "-50 -200 1200 1000"
+            : width > 983
+            ? "-50 -300 1200 1000"
+            : "140 -270 900 1000"
+        }
+      >
+        <path
+          d={"M 675, 10 C 800, 0 900, 0, 900, 130"}
+          stroke="#a6c954"
+          fill="transparent"
+          strokeDasharray="10"
+          strokeWidth="5"
+        />
+        <circle cx="675" cy="10" r="10" fill="#a6c954" />
+        <circle cx="900" cy="130" r="10" fill="#a6c954" />
+      </svg>
       <Box className={styles.rect_wrapp} id={styles.rect2}>
         <Box className={styles.rect}>
           <Typography className={styles.content_t}>
@@ -60,31 +60,30 @@ const GameSteps = () => {
           src={require("./img/shoe.png")}
           alt=""
         />
-        <svg id={styles.svg2} className={styles.svg}>
-          <path
-            d={
-              width > 1152
-                ? "M 720, 60 C 500,40 431,57 400, 200" // не трогать
-                : "M 510, 70 C 450,70 300,80 300, 220"
-            }
-            stroke="#a6c954"
-            fill="transparent"
-            strokeDasharray="10"
-            strokeWidth="5"
-          />
-          {width > 1152 ? (
-            <circle cx="900" cy="15" r="10" fill="#a6c954" /> // не трогать
-          ) : (
-            <circle cx="510" cy="70" r="10" fill="#a6c954" />
-          )}
-          {width > 1152 ? (
-            <circle cx="720" cy="60" r="10" fill="#a6c954" /> // не трогать
-          ) : (
-            <circle cx="695" cy="20" r="10" fill="#a6c954" />
-          )}
-        </svg>
       </Box>
-
+      <svg
+        id={styles.svg2}
+        className={styles.svg}
+        viewBox={
+          width > 1236
+            ? "130 -220 1000 1000"
+            : width > 1126
+            ? "0 -380 1200 1000"
+            : width > 983
+            ? "120 -490 1200 1000"
+            : "360 -400 900 1000"
+        }
+      >
+        <path
+          d={"M 720, 60 C 500,40 431,57 400, 210"}
+          stroke="#a6c954"
+          fill="transparent"
+          strokeDasharray="10"
+          strokeWidth="5"
+        />
+        <circle cx="720" cy="60" r="10" fill="#a6c954" />
+        <circle cx="400" cy="210" r="10" fill="#a6c954" />
+      </svg>
       <Box className={styles.rect_wrapp} id={styles.rect3}>
         <Box className={styles.rect}>
           <Typography className={styles.content_t}>
@@ -99,31 +98,30 @@ const GameSteps = () => {
           src={require("./img/apple.png")}
           alt=""
         />
-        <svg id={styles.svg3} className={styles.svg}>
-          <path
-            d={
-              width > 1152
-                ? "M 520, 80 C 650,40 770,40 830, 210" // не трогать
-                : "M 470, 60 C 600,40 650,40 700, 210"
-            }
-            stroke="#a6c954"
-            fill="transparent"
-            strokeDasharray="10"
-            strokeWidth="5"
-          />
-          {width > 1152 ? (
-            <circle cx="400" cy="15" r="10" fill="#a6c954" /> // не трогать
-          ) : (
-            <circle cx="305" cy="15" r="10" fill="#a6c954" />
-          )}
-          {width > 1152 ? (
-            <circle cx="520" cy="80" r="10" fill="#a6c954" /> // не трогать
-          ) : (
-            <circle cx="470" cy="60" r="10" fill="#a6c954" />
-          )}
-        </svg>
       </Box>
-
+      <svg
+        id={styles.svg3}
+        className={styles.svg}
+        viewBox={
+          width > 1236
+            ? "110 -390 1000 1000"
+            : width > 1126
+            ? "40 -630 1200 1000"
+            : width > 983
+            ? "40 -770 1200 1000"
+            : "70 -600 900 1000"
+        }
+      >
+        <path
+          d={"M 520, 80 C 650,40 770,40 830, 210"}
+          stroke="#a6c954"
+          fill="transparent"
+          strokeDasharray="10"
+          strokeWidth="5"
+        />
+        <circle cx="520" cy="80" r="10" fill="#a6c954" />
+        <circle cx="825" cy="210" r="10" fill="#a6c954" />
+      </svg>
       <Box className={styles.rect_wrapp} id={styles.rect4}>
         <Box className={styles.rect}>
           <Typography className={styles.content_t}>
@@ -145,31 +143,30 @@ const GameSteps = () => {
           src={require("./img/mbag.png")}
           alt=""
         />
-        <svg id={styles.svg4} className={styles.svg}>
-          <path
-            d={
-              width > 1152
-                ? "M 580, 80 C 500,60 400,100 398, 220" // не трогать
-                : "M 400, 80 C 250,100 280,180 300, 220"
-            }
-            stroke="#a6c954"
-            fill="transparent"
-            strokeDasharray="10"
-            strokeWidth="5"
-          />
-          {width > 1152 ? (
-            <circle cx="825" cy="10" r="10" fill="#a6c954" /> // не трогать
-          ) : (
-            <circle cx="697" cy="10" r="10" fill="#a6c954" />
-          )}
-          {width > 1152 ? (
-            <circle cx="580" cy="80" r="10" fill="#a6c954" /> // не трогать
-          ) : (
-            <circle cx="410" cy="80" r="10" fill="#a6c954" />
-          )}
-        </svg>
       </Box>
-
+      <svg
+        id={styles.svg4}
+        className={styles.svg}
+        viewBox={
+          width > 1236
+            ? "90 -570 1000 1000"
+            : width > 1126
+            ? "-20 -870 1200 1500"
+            : width > 983
+            ? "-20 -1100 1200 1500"
+            : "220 -850 900 1500"
+        }
+      >
+        <path
+          d={"M 580, 80 C 500,60 400,100 398, 220"}
+          stroke="#a6c954"
+          fill="transparent"
+          strokeDasharray="10"
+          strokeWidth="5"
+        />
+        <circle cx="580" cy="80" r="10" fill="#a6c954" />
+        <circle cx="398" cy="220" r="10" fill="#a6c954" />
+      </svg>
       <Box className={styles.rect_wrapp} id={styles.rect5}>
         <Box className={styles.rect}>
           <Typography className={styles.content_t}>
@@ -180,13 +177,6 @@ const GameSteps = () => {
             на практике.
           </Typography>
         </Box>
-        <svg id={styles.svg5} className={styles.svg}>
-          {width > 1152 ? (
-            <circle cx="378" cy="10" r="10" fill="#a6c954" /> // не трогать
-          ) : (
-            <circle cx="280" cy="10" r="10" fill="#a6c954" />
-          )}
-        </svg>
       </Box>
     </Box>
   );

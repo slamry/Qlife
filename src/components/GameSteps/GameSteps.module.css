@@ -1,5 +1,9 @@
 .wrapp {
   padding-top: 5%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10%;
 }
 .title {
   color: #ffffff;
@@ -26,13 +30,13 @@
 }
 .image {
   position: absolute;
-  height: 100px;
+  height: 40%;
 }
 #hand {
-  top: 65%;
+  top: 100%;
   left: 25%;
   animation: pulse 2s ease-in-out infinite;
-  height: 130px;
+  height: 50%;
 }
 @keyframes pulse {
   from {
@@ -47,8 +51,8 @@
 }
 #shoe {
   animation: animate 3s linear infinite;
-  top: 130px;
-  right: 130px;
+  top: 60%;
+  right: 0%;
 }
 @keyframes animate {
   0% {
@@ -63,148 +67,203 @@
 }
 #apple {
   animation: animate 1.5s linear infinite;
-  top: 50%;
+  top: 70%;
   left: 25%;
 }
 #mbag {
-  top: 60%;
+  top: 80%;
   right: 12%;
   animation: pulse 2s ease-in-out infinite;
-  height: 130px;
+  height: 55%;
 }
 .svg {
   position: absolute;
-  z-index: 20;
-  width: 100%;
-  height: 100%;
-}
-#svg1 {
-  top: 40%;
-  right: 2%;
-}
-#svg2 {
-  top: 0%;
-  right: 2%;
-}
-#svg3 {
-  top: 0%;
-  right: 2%;
-}
-#svg4 {
-  top: 0%;
-  right: 2%;
-}
-#svg5 {
-  top: 0%;
+  z-index: 2;
 }
 #rect1 {
-  padding-right: 580px;
+  padding-right: 40%;
   transform: rotate(2deg);
-  width: 650px;
 }
 #rect2 {
-  padding-left: 700px;
+  padding-left: 60%;
   transform: rotate(357deg);
-  padding-top: 20px;
-  width: 400px;
 }
 #rect3 {
   padding-right: 60%;
   transform: rotate(3deg);
-  padding-top: 20px;
-  width: 500px;
 }
 #rect4 {
-  padding-top: 20px;
-  padding-left: 560px;
+  padding-left: 50%;
   transform: rotate(357deg);
-  width: 590px;
 }
 #rect5 {
-  padding-right: 300px;
-  padding-top: 20px;
+  padding-right: 30%;
   transform: rotate(2deg);
 }
 
 /*/////////////////////////*/
-@media (max-width: 1380px) {
-  #rect4 {
-    width: 600px;
+@media (width>=1440px) or (width<1470) {
+  .rect {
+    margin-top: 5%;
   }
 }
-@media (max-width: 1352px) {
-  .content_t {
-    font-size: 17px;
+@media (width>=1470px) or (width<1530) {
+  .rect {
+    margin-top: 7%;
+  }
+}
+@media (width>=1530px) or (width<1550) {
+  .rect {
+    margin-top: 10%;
+  }
+}
+@media (max-width: 1370px) {
+  #shoe {
+    top: 50%;
+  }
+  #rect4 {
+    margin-top: -2%;
+  }
+}
+@media (max-width: 1348px) {
+  #rect3 {
+    margin-top: -1%;
   }
   #hand {
-    top: 50%;
-    height: 120px;
+    top: 72%;
+  }
+}
+@media (max-width: 1327px) {
+  #rect2 {
+    margin-top: -1%;
+  }
+}
+@media (max-width: 1300px) {
+  #rect4 {
+    margin-top: -3%;
+  }
+}
+@media (max-width: 1288px) {
+  #rect5 {
+    margin-top: -2%;
+  }
+}
+@media (max-width: 1270px) {
+  #rect3 {
+    margin-top: -3%;
+  }
+}
+@media (max-width: 1237px) {
+  #rect5,
+  #rect2,
+  #rect3,
+  #rect4 {
+    margin-top: 0%;
+  }
+  #shoe {
+    top: 60%;
   }
   #apple {
-    top: 40%;
-    height: 90px;
+    top: 60%;
   }
   #mbag {
-    top: 55%;
-    height: 120px;
-  }
-  #shoe {
-    top: 110px;
-    height: 90px;
-  }
-  #rect4 {
-    width: 550px;
+    top: 60%;
+    right: 0%;
   }
 }
-@media (max-width: 1260px) {
-  .content_t {
-    font-size: 15px;
-  }
-  #mbag {
-    top: 55%;
-    height: 120px;
-  }
-  #shoe {
-    top: 120px;
-    right: 80px;
-  }
+@media (max-width: 1198px) {
   #rect4 {
-    width: 450px;
-  }
-  #rect2 {
-    width: 300px;
-  }
-  #rect2 > .rect {
-    padding: 5%;
+    margin-top: -2%;
   }
 }
-@media (max-width: 1152px) {
-  #rect1 {
-    padding-right: 580px;
-    width: 550px;
-  }
+@media (max-width: 1185px) {
   #rect2 {
-    padding-left: 500px;
-    width: 400px;
+    margin-top: -1%;
   }
+}
+@media (max-width: 1166px) {
+  #rect4 {
+    margin-top: -3%;
+  }
+}
+@media (max-width: 1147px) {
   #rect3 {
-    padding-right: 60%;
-    width: 450px;
-  }
-  #rect4 {
-    padding-left: 400px;
-    width: 500px;
+    margin-top: -1%;
   }
   #rect5 {
-    padding-right: 300px;
+    padding-right: 20%;
   }
 }
-@media (max-width: 1065px) {
+@media (max-width: 1137px) {
+  #rect3 {
+    margin-top: -2%;
+  }
+  #hand {
+    top: 90%;
+  }
+}
+@media (max-width: 1127px) {
+  #rect5,
+  #rect2,
+  #rect3,
+  #rect4 {
+    margin-top: 0%;
+  }
+  #rect5 {
+    padding-top: 5%;
+  }
   #rect2 {
-    width: 39%;
+    padding-top: 5%;
+    padding-left: 50%;
+  }
+}
+@media (max-width: 1092px) {
+  #rect3 {
+    margin-top: -2%;
+  }
+}
+@media (max-width: 1067px) {
+  #rect4 {
+    margin-top: -2.5%;
+  }
+}
+@media (max-width: 1040px) {
+  #rect2 {
+    margin-top: -2%;
+  }
+}
+@media (max-width: 1014px) {
+  #rect4 {
+    margin-top: -4%;
+  }
+  #rect5 {
+    margin-top: -3%;
+  }
+  #shoe {
+    top: 60%;
+    /* left: 115%; */
+    height: 30%;
+  }
+}
+@media (max-width: 998px) {
+  #rect2 {
+    margin-top: -4%;
+  }
+}
+@media (max-width: 984px) {
+  #rect2 {
+    margin-top: 0%;
+    padding-top: 10%;
+    padding-left: 40%;
+  }
+  #shoe {
+    top: 70%;
+  }
+  #rect3 {
+    padding-right: 50%;
   }
   #rect4 {
-    width: 53%;
+    padding-left: 40%;
   }
 }
 
@@ -230,24 +289,52 @@
     width: 100%;
   }
   #rect2 {
-    padding-left: 0;
-    width: 70%;
-    padding-top: 0%;
+    padding-left: 20%;
+    padding-right: 0%;
+    padding-top: 5%;
+  }
+  #shoe {
+    top: 0%;
+    left: 0%;
+    height: 40%;
   }
   #rect3 {
     padding-top: 0%;
-    padding-right: 0%;
-    padding-left: 35%;
-    width: 65%;
+    padding-left: 0%;
+    padding-right: 20%;
+  }
+  #apple {
+    top: 0%;
+    left: 90%;
+    height: 50%;
+  }
+  #mbag {
+    top: -35%;
+    left: 10%;
+    height: 40%;
   }
   #rect4 {
     padding-left: 0;
     width: 100%;
     padding-bottom: 5%;
   }
+  #rect5,
+  #rect2,
+  #rect3,
+  #rect4 {
+    margin-top: 0%;
+  }
   #rect5 {
+    margin-top: -2%;
     padding-right: 0;
   }
+  #hand {
+    top: -10%;
+    left: 90%;
+    height: 35%;
+  }
+}
+@media (max-width: 685px) {
   #hand {
     top: -10%;
     left: 90%;
@@ -255,76 +342,50 @@
   }
   #apple {
     top: 0%;
-    left: 15%;
-    height: 45%;
+    left: 90%;
+    height: 40%;
   }
   #mbag {
-    top: 50%;
-    right: 3%;
+    top: -25%;
+    left: 0%;
     height: 40%;
   }
   #shoe {
-    top: 5%;
-    left: 115%;
-    height: 40%;
-  }
-}
-@media (max-width: 650px) {
-  .title {
-    font-size: 37px;
-  }
-  .rect_wrapp {
-    height: 170px;
-  }
-  .content_t {
-    font-size: 15px;
-  }
-  #rect2 {
-    padding-left: 10%;
-    width: 90%;
-    padding-top: 0%;
-  }
-  #rect3 {
-    padding-top: 0%;
-    padding-right: 10%;
-    padding-left: 0%;
-    width: 90%;
-    margin: -5% 0%;
-  }
-  #rect4 {
-    padding-left: 0;
-    width: 100%;
-    padding-bottom: 0%;
-  }
-  #rect5 {
-    padding-right: 0;
-    margin-top: -3%;
-  }
-  #hand {
-    top: -10%;
-    left: 90%;
-    height: 35%;
-  }
-  #apple {
-    top: -10%;
-    left: 90%;
-    height: 37%;
-  }
-  #mbag {
-    top: -10%;
+    top: 0%;
     left: 0%;
     height: 35%;
   }
-  #shoe {
-    top: -20%;
-    left: 2%;
-    height: 30%;
-    z-index: 2;
+}
+@media (max-width: 651px) {
+  .title {
+    font-size: 35px;
+  }
+  #mbag {
+    top: -25%;
+    left: 0%;
+    height: 35%;
+  }
+  #apple {
+    top: -25%;
+    left: 90%;
+    height: 35%;
+  }
+  #rect3 {
+    padding-right: 0%;
   }
 }
-@media (max-width: 570px) {
+@media (max-width: 622px) {
   #rect1 {
     padding-bottom: 5%;
+  }
+}
+@media (max-width: 577px) {
+  #rect4 {
+    padding-top: 0%;
+  }
+  #mbag,
+  #apple {
+    top: -25%;
   }
 }
 @media (max-width: 515px) {
@@ -332,85 +393,55 @@
     font-size: 30px;
     margin-bottom: 5%;
   }
-  /* .rect_wrapp {
-    height: 170px;
-  } */
-  #rect1,
-  #rect2,
-  #rect3,
-  #rect4,
-  #rect5 {
-    width: 100%;
-    padding: 0%;
-    margin: 0%;
-  }
-  #rect1 {
-    margin-bottom: 10%;
-  }
-  #rect3 {
-    margin: -3% 0%;
-  }
-  #hand {
-    top: -10%;
-    left: 90%;
-    height: 35%;
-  }
+}
+@media (max-width: 500px) {
   #apple {
-    top: 70%;
     left: 90%;
-    height: 37%;
   }
-  #mbag {
-    top: -20%;
-    left: 0%;
-    height: 35%;
-  }
-  #shoe {
-    top: -20%;
-    left: 2%;
-    height: 30%;
-    z-index: 2;
-  }
-}
-@media (max-width: 437px) {
-  #rect4 {
-    padding-bottom: 5%;
-  }
-}
-
-@media (max-width: 429px) {
-  #rect5 {
-    padding-top: 5%;
-  }
-}
-@media (max-width: 415px) {
-  .title {
-    font-size: 25px;
-    margin-bottom: 5%;
-  }
-  #shoe {
-    top: -20%;
-    left: 0%;
+  #shoe,
+  #apple,
+  #mbag,
+  #hand {
     height: 25%;
   }
-  #apple {
-    top: 75%;
-    left: 85%;
-    height: 35%;
+}
+@media (max-width: 477px) {
+  #rect1 {
+    padding-bottom: 11%;
+  }
+  .wrapp {
+    margin-bottom: 20%;
   }
 }
-@media (max-width: 399px) {
-  #rect1 {
-    padding-bottom: 7%;
+@media (max-width: 436px) {
+  #rect2 {
+    padding-left: 0%;
   }
-  #mbag {
-    top: -25%;
-    left: 0%;
-    height: 35%;
+  #shoe {
+    top: -15%;
+  }
+  #rect1 {
+    padding-bottom: 15%;
   }
 }
-@media (max-width: 338px) {
+@media (max-width: 393px) {
   #rect1 {
+    padding-bottom: 25%;
+  }
+}
+@media (max-width: 378px) {
+  #rect1 {
+    padding-bottom: 30%;
+  }
+  #rect3 {
+    margin-top: -5%;
+  }
+  #rect4 {
+    padding-bottom: 25%;
+  }
+}
+@media (max-width: 334px) {
+  #rect5 {
     padding-bottom: 20%;
   }
 }
