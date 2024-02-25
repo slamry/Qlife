@@ -66,7 +66,6 @@
 }
 @media (max-width: 1191px) {
   .ql {
-    font-size: 80px;
     line-height: 130%;
   }
   .butt {
@@ -79,12 +78,7 @@
     margin-left: 4%;
     height: 23px;
   }
-  .transf_game {
-    font-size: 17px;
-  }
-  .learn {
-    font-size: 17px;
-  }
+
   .become {
     font-size: 25px;
   }
@@ -95,18 +89,8 @@
     line-height: 120%;
   }
   .butt {
-    font-size: 13px;
     padding: 3.5% 10%;
     border-width: 2px;
-  }
-  .arrow {
-    height: 20px;
-  }
-  .transf_game {
-    font-size: 15px;
-  }
-  .learn {
-    font-size: 15px;
   }
   .become {
     font-size: 20px;
@@ -169,12 +153,6 @@
   .ql {
     font-size: 75px;
   }
-  .transf_game {
-    font-size: 18px;
-  }
-  .learn {
-    font-size: 18px;
-  }
   .become {
     font-size: 26px;
   }
@@ -204,7 +182,7 @@
 }
 @media (max-width: 1064px) {
   .text_circle {
-    top: 30%;
+    top: 20%;
     right: 10%;
     height: 200px;
   }
@@ -276,26 +254,21 @@
     /* line-height: 130%; */
   }
   .butt {
-    font-size: 17px;
     padding: 20px 70px;
     border-width: 3px;
     border-radius: 50px;
   }
   .arrow {
     margin-left: 4%;
-    height: 23px;
   }
   .transf_game {
     font-size: 20px;
   }
   .transf_wrapp {
-    margin-right: 20vw;
+    /* margin-right: 20vw; */
     margin-top: 0;
     background-position: center center;
     padding: 5%;
-  }
-  .learn {
-    font-size: 17px;
   }
   .become {
     font-size: 25px;
@@ -331,7 +304,7 @@
     left: 100%;
   }
   .transf_wrapp {
-    margin-right: 0vw;
+    /* margin-right: 0vw; */
   }
   .text_circle {
     top: 18%;
@@ -358,21 +331,12 @@
     font-size: 67px;
   }
   .butt {
-    font-size: 15px;
     padding: 15px 50px;
     border-width: 2px;
   }
-  .arrow {
-    height: 20px;
-  }
-  .transf_game {
-    font-size: 15px;
-  }
-  .transf_wrapp {
-    margin-right: 10%;
-  }
   .learn {
-    font-size: 15px;
+    font-size: 17px;
+    line-height: 120%;
   }
   .become {
     font-size: 20px;
@@ -385,48 +349,40 @@
   }
   .ql {
     font-size: 50px;
+    letter-spacing: normal;
   }
-  .learn {
-    font-size: 12px;
+  .transf_game {
+    font-size: 16px;
   }
   .become {
-    font-size: 13px;
+    font-size: 17px;
   }
   .game {
     width: 400px;
   }
   .text_circle {
-    top: 20%;
+    top: 17%;
     right: 0%;
     height: 150px;
-  }
-  .transf_game {
-    font-size: 12px;
   }
   .transf_wrapp {
     margin-right: 0%;
   }
-  .butt {
-    font-size: 12px;
-  }
-  .arrow {
-    height: 15px;
-  }
 }
 @media (max-width: 507px) {
+  .text_circle {
+    top: 15%;
+  }
   .ql {
     font-size: 40px;
     text-wrap: wrap;
-    letter-spacing: -2px;
-  }
-  .learn {
-    font-size: 10px;
+    /* letter-spacing: -2px; */
   }
   .become {
     font-size: 12px;
   }
-  .butt {
-    font-size: 11px;
+  .learn {
+    font-size: 12px;
   }
 }
 @media (max-width: 495px) {
@@ -441,8 +397,13 @@
   }
 }
 @media (max-width: 400px) {
+  .text_circle {
+    height: 25%;
+    top: 15%;
+    left: 55%;
+  }
   .menu_butt {
-    left: 95%;
+    left: 100%;
   }
 }
 @media (max-width: 342px) {
@@ -454,21 +415,14 @@
   .ql {
     font-size: 35px;
   }
-  .learn {
-    font-size: 8px;
-  }
   .become {
     font-size: 10px;
   }
   .butt {
-    font-size: 7px;
     padding: 7px 30px;
     border-width: 1px;
   }
   .arrow {
     height: 8px;
-  }
-  .transf_game {
-    font-size: 8px;
   }
 }

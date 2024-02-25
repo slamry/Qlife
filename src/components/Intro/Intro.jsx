@@ -8,7 +8,6 @@ const Intro = () => {
   const [isMenuVisible, setIsMenuVisible] = useState(false);
   // eslint-disable-next-line
   const { width, height } = useWindowSize();
-
   return (
     <Box position={"relative"}>
       <Menu
@@ -84,9 +83,6 @@ const Intro = () => {
       ) : (
         <Grid container className={styles.container}>
           <Grid item xs={12}>
-            <Typography color={"white"} fontSize={"7px"}>
-              {window.innerWidth}
-            </Typography>
             <Typography color="primary" className={styles.learn}>
               Узнай новое о себе за веселой игрой
             </Typography>

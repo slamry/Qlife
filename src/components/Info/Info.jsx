@@ -5,7 +5,7 @@ import useWindowSize from "../common/useWindowSize/useWindowSize";
 const Info = () => {
   // eslint-disable-next-line
   const { width, height } = useWindowSize();
-
+// alert(width)
   return (
     <Box className={styles.wrapp} id="info">
       {width > 957 ? (

@@ -75,13 +75,14 @@
 }
 @media (max-width: 550px) {
   .menu_wrapp {
-    width: 30%;
+    width: 35%;
+  }
+  .close_butt {
+    left: 75%;
+    top: 0px;
   }
 }
 @media (max-width: 470px) {
-  .link {
-    font-size: 12px;
-  }
   .close_butt {
     left: 65%;
     height: 30px;
