@@ -587,6 +587,9 @@
   }
 }
 @media (max-width: 596px) {
+  .cards_wrapp {
+    margin-bottom: -10%;
+  }
   .images {
     display: none;
   }
@@ -654,6 +657,9 @@
 }
 
 @media (max-width: 505px) {
+  .cards_wrapp {
+    margin-bottom: -16%;
+  }
   .card1 > .text_wrapp {
     padding-top: 17%;
     padding-left: 5%;
@@ -686,12 +692,15 @@
     padding-left: 5%;
     width: 88%;
   }
-  .back_star{
+  .back_star {
     height: 70%;
   }
 }
 
 @media (max-width: 410px) {
+  .cards_wrapp {
+    margin-bottom: -40%;
+  }
   .card1 > .text_wrapp {
     padding-top: 25%;
     padding-left: 5%;
@@ -731,7 +740,10 @@
     padding-left: 5%;
     width: 92%;
   }
-  .ql{
+  .cards_wrapp {
+    margin-bottom: -65%;
+  }
+  .ql {
     letter-spacing: -2.5px;
   }
   .card2 > .text_wrapp {
@@ -744,8 +756,8 @@
     padding-left: 5%;
     width: 95%;
   }
-  .card2,.card3{
+  .card2,
+  .card3 {
     margin-top: -20%;
   }
 }
-

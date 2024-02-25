@@ -30,7 +30,7 @@ const GameSteps = () => {
         viewBox={
           width > 1236
             ? "70 -130 1000 1000"
-            : width > 1126
+            : width > 1127
             ? "-50 -200 1200 1000"
             : width > 983
             ? "-50 -300 1200 1000"
@@ -67,7 +67,7 @@ const GameSteps = () => {
         viewBox={
           width > 1236
             ? "130 -230 1000 1000"
-            : width > 1126
+            : width > 1127
             ? "0 -380 1200 1000"
             : width > 983
             ? "120 -490 1200 1000"
@@ -75,14 +75,14 @@ const GameSteps = () => {
         }
       >
         <path
-          d={"M 720, 60 C 500,40 431,57 400, 210"}
+          d={"M 720, 100 C 500,60 431,57 400, 210"}
           stroke="#a6c954"
           fill="transparent"
           strokeDasharray="10"
           strokeWidth="5"
         />
-        <circle cx="720" cy="60" r="10" fill="#a6c954" />
-        <circle cx="400" cy="210" r="10" fill="#a6c954" />
+        <circle cx="720" cy="100" r="10" fill="#a6c954" />
+        <circle cx="400" cy="200" r="10" fill="#a6c954" />
       </svg>
       <Box className={styles.rect_wrapp} id={styles.rect3}>
         <Box className={styles.rect}>
@@ -105,7 +105,7 @@ const GameSteps = () => {
         viewBox={
           width > 1236
             ? "110 -390 1000 1000"
-            : width > 1126
+            : width > 1127
             ? "40 -630 1200 1000"
             : width > 983
             ? "40 -770 1200 1000"
@@ -150,7 +150,7 @@ const GameSteps = () => {
         viewBox={
           width > 1236
             ? "90 -570 1000 1000"
-            : width > 1126
+            : width > 1127
             ? "-20 -870 1200 1500"
             : width > 983
             ? "-20 -1100 1200 1500"

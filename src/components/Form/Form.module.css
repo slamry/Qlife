@@ -1,5 +1,5 @@
 .wrapp {
-  padding-top: 150px;
+  padding-top: 7%;
 }
 .content_wrapp {
   position: relative;
@@ -255,6 +255,9 @@
     height: 10%;
     top: 70%;
   }
+  .wrapp {
+    padding-top: 12%;
+  }
 }
 @media (max-width: 646px) {
   .form {
@@ -275,6 +278,9 @@
 @media (max-width: 631px) {
   .form {
     height: 960px;
+  }
+  .wrapp {
+    padding-top: 25%;
   }
 }
 
@@ -309,6 +315,9 @@
   .form {
     height: 990px;
   }
+  .wrapp {
+    padding-top: 30%;
+  }
 }
 @media (max-width: 435px) {
   .cubes {
@@ -336,6 +345,9 @@
   .form {
     height: 1030px;
   }
+  .wrapp {
+    padding-top: 40%;
+  }
 }
 @media (max-width: 399px) {
   .form {
@@ -345,15 +357,24 @@
     height: 5%;
     top: 80%;
   }
+  .wrapp {
+    padding-top: 45%;
+  }
 }
 @media (max-width: 363px) {
   .form {
     height: 1100px;
   }
+  .wrapp {
+    padding-top: 55%;
+  }
 }
 @media (max-width: 351px) {
   .form {
     height: 1110px;
+  }
+  .wrapp {
+    margin-top: 40%;
   }
   .cubes {
     height: 5%;

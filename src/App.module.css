@@ -1,5 +1,6 @@
 .global_wrapp {
   padding: 2% 10%;
+  max-width: 1500px;
   margin: 0 auto;
   box-sizing: border-box;
 }

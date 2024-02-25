@@ -17,6 +17,7 @@
   height: 200px;
 }
 .rect {
+  margin-top: 4%;
   border-width: 4px;
   border-radius: 27px;
   background-color: #ffffff;
@@ -123,12 +124,17 @@
     margin-top: 5%;
   }
 }
-@media (max-width: 1370px) {
+@media (max-width: 1415px) {
+  #rect4 {
+    margin-top: -2%;
+  }
+}
+@media (max-width: 1375px) {
   #shoe {
     top: 50%;
   }
   #rect4 {
-    margin-top: -2%;
+    margin-top: -4%;
   }
 }
 @media (max-width: 1348px) {
@@ -136,7 +142,7 @@
     margin-top: -1%;
   }
   #hand {
-    top: 72%;
+    top: 100%;
   }
 }
 @media (max-width: 1327px) {
@@ -145,7 +151,7 @@
   }
 }
 @media (max-width: 1300px) {
-  #rect4 {
+  #rect3 {
     margin-top: -3%;
   }
 }
@@ -153,10 +159,13 @@
   #rect5 {
     margin-top: -2%;
   }
+  #shoe {
+    top: 70%;
+  }
 }
 @media (max-width: 1270px) {
   #rect3 {
-    margin-top: -3%;
+    margin-top: -5%;
   }
 }
 @media (max-width: 1237px) {
@@ -164,7 +173,7 @@
   #rect2,
   #rect3,
   #rect4 {
-    margin-top: 0%;
+    margin-top: -1%;
   }
   #shoe {
     top: 60%;
@@ -178,7 +187,7 @@
   }
 }
 @media (max-width: 1198px) {
-  #rect4 {
+  #rect1 {
     margin-top: -2%;
   }
 }
@@ -208,7 +217,7 @@
     top: 90%;
   }
 }
-@media (max-width: 1127px) {
+@media (max-width: 1127px) or (width = 1126px) {
   #rect5,
   #rect2,
   #rect3,
@@ -236,6 +245,8 @@
 @media (max-width: 1040px) {
   #rect2 {
     margin-top: -2%;
+  }  #rect5 {
+    margin-top: -4%;
   }
 }
 @media (max-width: 1014px) {
@@ -270,6 +281,9 @@
   }
   #rect4 {
     padding-left: 40%;
+  }
+  #rect3{
+    margin-top: -5%;
   }
 }
 
