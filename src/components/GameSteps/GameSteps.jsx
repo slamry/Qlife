@@ -29,7 +29,7 @@ const GameSteps = () => {
         className={styles.svg}
         viewBox={
           width > 1236
-            ? "70 -115 1000 1000"
+            ? "70 -130 1000 1000"
             : width > 1126
             ? "-50 -200 1200 1000"
             : width > 983
@@ -66,7 +66,7 @@ const GameSteps = () => {
         className={styles.svg}
         viewBox={
           width > 1236
-            ? "130 -220 1000 1000"
+            ? "130 -230 1000 1000"
             : width > 1126
             ? "0 -380 1200 1000"
             : width > 983

@@ -107,6 +107,7 @@
     margin-top: 5%;
   }
 }
+
 @media (width>=1470px) or (width<1530) {
   .rect {
     margin-top: 7%;
@@ -115,6 +116,11 @@
 @media (width>=1530px) or (width<1550) {
   .rect {
     margin-top: 10%;
+  }
+}
+@media (max-width<=1440px) {
+  .rect {
+    margin-top: 5%;
   }
 }
 @media (max-width: 1370px) {
