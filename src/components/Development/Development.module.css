@@ -228,7 +228,7 @@
     height: 80px;
   }
   .card_t {
-    font-size: 20px;
+    font-size: 17px;
     line-height: 88%;
   }
   .backr {
@@ -266,7 +266,7 @@
     font-size: 20px;
   }
 }
-@media (max-width: 380px) {
+@media (max-width: 381px) {
   .card3_grid_wr {
     padding-right: 0%;
     justify-content: flex-start;
@@ -281,7 +281,6 @@
     display: flex;
     justify-content: flex-end;
     margin-top: -1%;
-
   }
 }
 @media (max-width: 376px) {
@@ -332,7 +331,7 @@
     margin-top: -8.5%;
   }
 }
-@media (max-width: 336px) {
+@media (max-width: 337px) {
   .card3_grid_wr,
   .card2_grid_wr {
     margin-top: 0%;
@@ -343,7 +342,8 @@
   .card2_grid_wr {
     margin-top: -2%;
   }
-}@media (max-width: 321px) {
+}
+@media (max-width: 321px) {
   .card3_grid_wr,
   .card2_grid_wr {
     margin-top: -4%;

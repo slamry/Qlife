@@ -217,7 +217,7 @@
 @media (max-width: 957px) {
   .grid_c {
     flex-direction: column;
-    padding-top: 100px;
+    padding-top: 10%;
   }
   .liliya {
     position: relative;
@@ -377,11 +377,6 @@
   .text {
     font-size: 20px;
   }
-}
-@media (max-width: 495px) {
-  .liliya {
-    height: 550px;
-  }
   .hi_text {
     font-size: 30px;
     line-height: 120%;
@@ -396,6 +391,11 @@
   .content {
     font-size: 20px;
     line-height: 120%;
+  }
+}
+@media (max-width: 495px) {
+  .liliya {
+    height: 550px;
   }
 }
 @media (max-width: 419px) {

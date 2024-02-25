@@ -686,6 +686,9 @@
     padding-left: 5%;
     width: 88%;
   }
+  .back_star{
+    height: 70%;
+  }
 }
 
 @media (max-width: 410px) {

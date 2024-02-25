@@ -23,28 +23,7 @@ const Form = () => {
   // } = useForm();
 
   // async function onSubmit(value) {
-  //   const config = {
-  //     Username: "qualitylife.game@yopmail.com",
-  //     Password: "2666DBBF9B2F800029295BB22B9B919AADAF",
-  //     Host: "smtp.elasticemail.com",
-  //     Port: 2525,
-  //     // SecureToken: "1235c6d9-699a-4beb-9c4c-6607428efa91",
-  //     To: "maxa.427419@list.ru",
-  //     From: "qualitylife.game@yopmail.com",
-  //     Subject: "Новая заявка на Quality life",
-  //     Body:
-  //       `ФИО: ${value.user_name}.` +
-  //       ` Номер телефона: ${value.user_pnumber}.` +
-  //       ` Город: ${value.user_city}.` +
-  //       ` Email: ${value.user_email}`,
-  //   };
-  //   console.log(config);
-  //   if (window.Email) {
-  //     window.Email.send(config)
-  //       .then(() => console.log("success"))
-  //       .catch((e) => {
-  //         console.log(e.message);
-  //       });
+  //   
   //   }
   // }
 

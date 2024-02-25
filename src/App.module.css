@@ -9,7 +9,7 @@ body {
   background-image: url("./components/common/img/backgr.png");
   background-size: 100% auto;
   background-repeat: repeat-y;
-  /* overflow-x: hidden; */
+  overflow-x: hidden;
   background-position: start center;
   transition: all 0.5s ease;
 }

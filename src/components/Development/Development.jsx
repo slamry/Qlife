@@ -5,7 +5,6 @@ import useWindowSize from "../common/useWindowSize/useWindowSize";
 const Development = () => {
   // eslint-disable-next-line
   const { width, height } = useWindowSize();
-
   return (
     <Box className={s.wrapp}>
       <Grid container className={s.grid}>
