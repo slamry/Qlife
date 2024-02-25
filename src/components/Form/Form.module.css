@@ -94,7 +94,7 @@
   display: flex;
   align-items: center;
   background-color: #fff;
-  height: 880px;
+  height: 960px;
   border-radius: 30px;
 }
 
@@ -102,13 +102,13 @@
 @media (max-width: 1394px) {
   .form {
     width: 97%;
-    height: 880px;
+    height: 960px;
   }
 }
 @media (max-width: 1336px) {
   .form {
     width: 97%;
-    height: 900px;
+    height: 950px;
   }
 }
 @media (max-width: 1316px) {
@@ -130,7 +130,7 @@
 }
 @media (max-width: 1304px) {
   .form {
-    height: 920px;
+    height: 970px;
   }
 }
 
@@ -169,6 +169,11 @@
     top: 70%;
   }
 }
+@media (max-width: 1035px) {
+  .form {
+    height: 990px;
+  }
+}
 /*            TABLET VIEW                 */
 @media (max-width: 957px) {
   .wrapp {
@@ -188,7 +193,7 @@
   .cubes {
     height: 12%;
     left: 0%;
-    top: 56%;
+    top: 60%;
   }
   .text_wrapp {
     padding-right: 25%;
@@ -198,7 +203,7 @@
     position: relative;
   }
   .form {
-    height: 860px;
+    height: 880px;
   }
   .game {
     padding-top: 5%;
@@ -209,7 +214,7 @@
   .cubes {
     height: 12%;
     left: 0%;
-    top: 60%;
+    top: 65%;
   }
 }
 @media (max-width: 840px) {
@@ -229,7 +234,7 @@
     top: 64%;
   }
   .form {
-    height: 880px;
+    height: 900px;
   }
 }
 @media (max-width: 734px) {
@@ -241,8 +246,11 @@
     width: 15%;
     left: 85%;
   }
+  .form {
+    height: 920px;
+  }
 }
-@media (max-width: 650px) {
+@media (max-width: 655px) {
   .cubes {
     height: 10%;
     top: 70%;
@@ -250,35 +258,26 @@
 }
 @media (max-width: 646px) {
   .form {
-    height: 885px;
+    height: 920px;
   }
 }
 @media (max-width: 645px) {
   .form {
-    height: 886px;
+    height: 930px;
   }
 }
 @media (max-width: 643px) {
   .form {
-    height: 905px;
+    height: 930px;
   }
 }
 
 @media (max-width: 631px) {
   .form {
-    height: 905px;
+    height: 960px;
   }
 }
-@media (max-width: 629px) {
-  .form {
-    height: 900px;
-  }
-}
-@media (max-width: 628px) {
-  .form {
-    height: 920px;
-  }
-}
+
 @media (max-width: 540px) {
   .title {
     font-size: 30px;
@@ -296,6 +295,11 @@
     top: 76%;
   }
 }
+@media (max-width: 505px) {
+  .form {
+    height: 980px;
+  }
+}
 @media (max-width: 480px) {
   .text_wrapp {
     padding-right: 17%;
@@ -303,7 +307,7 @@
 }
 @media (max-width: 455px) {
   .form {
-    height: 940px;
+    height: 990px;
   }
 }
 @media (max-width: 435px) {
@@ -317,7 +321,7 @@
 }
 @media (max-width: 429px) {
   .form {
-    height: 970px;
+    height: 1010px;
   }
 }
 @media (max-width: 420px) {
@@ -330,12 +334,12 @@
 }
 @media (max-width: 413px) {
   .form {
-    height: 990px;
+    height: 1030px;
   }
 }
 @media (max-width: 399px) {
   .form {
-    height: 1030px;
+    height: 1070px;
   }
   .cubes {
     height: 5%;
@@ -344,12 +348,12 @@
 }
 @media (max-width: 363px) {
   .form {
-    height: 1060px;
+    height: 1100px;
   }
 }
 @media (max-width: 351px) {
   .form {
-    height: 1090px;
+    height: 1110px;
   }
   .cubes {
     height: 5%;
