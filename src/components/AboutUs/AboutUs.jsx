@@ -7,7 +7,7 @@ const AboutUs = () => {
   const { width, height } = useWindowSize();
   // alert(width)
   return (
-    <Grid container className={s.grid_c}>
+    <Grid container className={s.grid_c} id="aboutus">
       <Grid item xs={width > 957 ? 6 : 12}>
         <Typography className={s.hi_text}>
           “Всем привет! Меня зовут Лилия Савченко”
@@ -21,7 +21,7 @@ const AboutUs = () => {
           можно показать развитие качественной жизни, чтобы каждый со стороны
           увидел важность баланса.
           <br />
-          Так родилась идея создания трансформационной игры. Ее цель которой -
+          Так родилась идея создания трансформационной игры. Ее цель -
           показать людям их склонности, триггеры и установки, которые мешают
           дойти до цели, нарушая баланс жизненных сфер.
         </Typography>

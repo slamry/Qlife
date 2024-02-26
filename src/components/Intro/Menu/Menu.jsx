@@ -39,7 +39,7 @@ const Menu = ({ isMenuVisible, closeMenu, visibleStyle, hiddenStyle }) => {
           className={s.link}
           onClick={() => handleOnClick("info")}
         >
-          О игре
+          Об игре
         </Link>
         <Link
           href="#gsteps"
@@ -60,7 +60,7 @@ const Menu = ({ isMenuVisible, closeMenu, visibleStyle, hiddenStyle }) => {
           className={s.link}
           onClick={() => handleOnClick("aboutus")}
         >
-          О создателе
+          Об организаторе
         </Link>
         <Link
           href="#contacts"

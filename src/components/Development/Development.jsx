@@ -9,7 +9,7 @@ const Development = () => {
     <Box className={s.wrapp}>
       <Grid container className={s.grid}>
         <Grid item className={s.backr}>
-          <Typography className={s.title} id="aboutus">
+          <Typography className={s.title}>
             Наша игра уже в нескольких странах и мы активно развиваем ее по
             всему миру!
           </Typography>
