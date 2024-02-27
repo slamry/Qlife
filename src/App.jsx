@@ -9,6 +9,7 @@ import Form from "./components/Form/Form";
 import Development from "./components/Development/Development";
 import AboutUs from "./components/AboutUs/AboutUs";
 import Footer from "./components/Footer/Footer";
+import JoinUs from "./components/JoinUs/JoinUs";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Form />
           <Development />
           <AboutUs />
+          <JoinUs />
           <Footer />
         </Box>
       </ThemeProvider>
