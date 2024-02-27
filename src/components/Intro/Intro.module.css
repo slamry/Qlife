@@ -48,12 +48,10 @@
   border-style: solid;
   transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out,
     border-color 0.2s ease-in-out;
-  text-wrap: nowrap;
   align-items: center;
 }
 .arrow {
-  margin-left: 4%;
-  height: 30px;
+  height: 25px;
   display: inline;
 }
 @media (max-width: 1380px) {
@@ -77,7 +75,6 @@
     border-radius: 50px;
   }
   .arrow {
-    margin-left: 4%;
     height: 23px;
   }
 
@@ -259,9 +256,6 @@
     padding: 20px 70px;
     border-width: 3px;
     border-radius: 50px;
-  }
-  .arrow {
-    margin-left: 4%;
   }
   .transf_game {
     font-size: 20px;

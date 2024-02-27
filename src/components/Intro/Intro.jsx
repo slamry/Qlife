@@ -45,11 +45,20 @@ const Intro = () => {
                 }
               >
                 Записаться на игру
-                <img
-                  className={styles.arrow}
-                  src={require("./img/arrow.png")}
-                  alt=""
-                />
+                <svg viewBox="-300 -1200 1400 1500" className={styles.arrow}>
+                  <path
+                    d="M647-440H160v-80h487L423-744l57-56 320 320-320 320-57-56 224-224Z"
+                    fill="#fff"
+                  />
+                  <circle
+                    cx="480"
+                    cy="-450"
+                    r="500"
+                    stroke="#fff"
+                    fill="transparent"
+                    strokeWidth="50"
+                  />
+                </svg>
               </Button>
             </Box>
           </Grid>
@@ -130,11 +139,20 @@ const Intro = () => {
                 }
               >
                 Записаться на игру
-                <img
-                  className={styles.arrow}
-                  src={require("./img/arrow.png")}
-                  alt=""
-                />
+                <svg viewBox="-300 -1200 1400 1500" className={styles.arrow}>
+                  <path
+                    d="M647-440H160v-80h487L423-744l57-56 320 320-320 320-57-56 224-224Z"
+                    fill="#fff"
+                  />
+                  <circle
+                    cx="480"
+                    cy="-450"
+                    r="500"
+                    stroke="#fff"
+                    fill="transparent"
+                    strokeWidth="50"
+                  />
+                </svg>
               </Button>
             </Box>
           </Grid>
