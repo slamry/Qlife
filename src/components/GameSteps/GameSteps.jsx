@@ -47,6 +47,25 @@ const GameSteps = () => {
         <circle cx="675" cy="10" r="10" fill="#a6c954" />
         <circle cx="900" cy="130" r="10" fill="#a6c954" />
       </svg>
+      <svg className={styles.svg_table} viewBox={"0 0 800 100"}>
+        <path
+          d={width > 545 ? "M 300, 10 L 700, 80" : "M 300, 10 L 500, 80"}
+          stroke="#a6c954"
+          fill="transparent"
+          strokeDasharray="10"
+          strokeWidth="5"
+        />
+        {width > 545 ? (
+          <circle cx="300" cy="10" r="10" fill="#a6c954" />
+        ) : (
+          <circle cx="300" cy="10" r="10" fill="#a6c954" />
+        )}
+        {width > 545 ? (
+          <circle cx="700" cy="80" r="10" fill="#a6c954" />
+        ) : (
+          <circle cx="500" cy="80" r="10" fill="#a6c954" />
+        )}
+      </svg>
       <Box className={styles.rect_wrapp} id={styles.rect2}>
         <Box className={styles.rect}>
           <Typography className={styles.content_t}>
@@ -84,6 +103,17 @@ const GameSteps = () => {
         <circle cx="720" cy="100" r="10" fill="#a6c954" />
         <circle cx="400" cy="200" r="10" fill="#a6c954" />
       </svg>
+      <svg className={styles.svg_table} viewBox={"0 0 800 100"}>
+        <path
+          d={"M 250, 20 L 450, 85"}
+          stroke="#a6c954"
+          fill="transparent"
+          strokeDasharray="10"
+          strokeWidth="5"
+        />
+        <circle cx="250" cy="20" r="10" fill="#a6c954" />
+        <circle cx="450" cy="85" r="10" fill="#a6c954" />
+      </svg>
       <Box className={styles.rect_wrapp} id={styles.rect3}>
         <Box className={styles.rect}>
           <Typography className={styles.content_t}>
@@ -98,6 +128,14 @@ const GameSteps = () => {
           src={require("./img/apple.png")}
           alt=""
         />
+        {width > 545 ? null : (
+          <img
+            id={styles.mbag}
+            className={styles.image}
+            src={require("./img/mbag.png")}
+            alt=""
+          />
+        )}
       </Box>
       <svg
         id={styles.svg3}
@@ -122,6 +160,17 @@ const GameSteps = () => {
         <circle cx="520" cy="80" r="10" fill="#a6c954" />
         <circle cx="825" cy="210" r="10" fill="#a6c954" />
       </svg>
+      <svg className={styles.svg_table} viewBox={"0 0 800 100"}>
+        <path
+          d={"M 550, 20 L 250, 90"}
+          stroke="#a6c954"
+          fill="transparent"
+          strokeDasharray="10"
+          strokeWidth="5"
+        />
+        <circle cx="550" cy="20" r="10" fill="#a6c954" />
+        <circle cx="250" cy="90" r="10" fill="#a6c954" />
+      </svg>
       <Box className={styles.rect_wrapp} id={styles.rect4}>
         <Box className={styles.rect}>
           <Typography className={styles.content_t}>
@@ -137,12 +186,14 @@ const GameSteps = () => {
           src={require("./img/apple.png")}
           alt=""
         />
-        <img
-          id={styles.mbag}
-          className={styles.image}
-          src={require("./img/mbag.png")}
-          alt=""
-        />
+        {width > 545 ? (
+          <img
+            id={styles.mbag}
+            className={styles.image}
+            src={require("./img/mbag.png")}
+            alt=""
+          />
+        ) : null}
       </Box>
       <svg
         id={styles.svg4}
@@ -166,6 +217,17 @@ const GameSteps = () => {
         />
         <circle cx="580" cy="80" r="10" fill="#a6c954" />
         <circle cx="398" cy="220" r="10" fill="#a6c954" />
+      </svg>
+      <svg className={styles.svg_table} viewBox={"0 0 800 100"}>
+        <path
+          d={"M 200, 20 L 500, 90"}
+          stroke="#a6c954"
+          fill="transparent"
+          strokeDasharray="10"
+          strokeWidth="5"
+        />
+        <circle cx="200" cy="20" r="10" fill="#a6c954" />
+        <circle cx="500" cy="90" r="10" fill="#a6c954" />
       </svg>
       <Box className={styles.rect_wrapp} id={styles.rect5}>
         <Box className={styles.rect}>

@@ -16,6 +16,9 @@
   position: relative;
   height: 200px;
 }
+.svg_table {
+  display: none;
+}
 .rect {
   margin-top: 4%;
   border-width: 4px;
@@ -245,7 +248,8 @@
 @media (max-width: 1040px) {
   #rect2 {
     margin-top: -2%;
-  }  #rect5 {
+  }
+  #rect5 {
     margin-top: -4%;
   }
 }
@@ -282,7 +286,7 @@
   #rect4 {
     padding-left: 40%;
   }
-  #rect3{
+  #rect3 {
     margin-top: -5%;
   }
 }
@@ -296,6 +300,24 @@
   #svg5 {
     display: none;
   }
+  #rect5,
+  #rect2,
+  #rect3,
+  #rect4,
+  #rect1 {
+    margin-top: 0%;
+  }
+  .rect {
+    margin-top: 0%;
+  }
+  .rect_wrapp {
+    height: auto;
+  }
+  .svg_table {
+    /* position: absolute; */
+    z-index: 2;
+    display: block;
+  }
   .content_t {
     font-size: 17px;
   }
@@ -305,107 +327,102 @@
   #rect1 {
     padding-top: 5%;
     padding-right: 0;
-    padding-bottom: 2%;
+    padding-bottom: 0%;
     width: 100%;
   }
   #rect2 {
     padding-left: 20%;
     padding-right: 0%;
-    padding-top: 5%;
+    padding-top: 0%;
   }
-  #shoe {
-    top: 0%;
-    left: 0%;
-    height: 40%;
-  }
+
   #rect3 {
+    padding-bottom: 0%;
     padding-top: 0%;
     padding-left: 0%;
     padding-right: 20%;
   }
-  #apple {
-    top: 0%;
-    left: 90%;
-    height: 50%;
-  }
-  #mbag {
-    top: -35%;
-    left: 10%;
-    height: 40%;
-  }
   #rect4 {
     padding-left: 0;
     width: 100%;
-    padding-bottom: 5%;
-  }
-  #rect5,
-  #rect2,
-  #rect3,
-  #rect4 {
-    margin-top: 0%;
+    padding-bottom: 0%;
+    padding-top: 0%;
   }
   #rect5 {
-    margin-top: -2%;
     padding-right: 0;
-  }
-  #hand {
-    top: -10%;
-    left: 90%;
-    height: 35%;
-  }
-}
-@media (max-width: 685px) {
-  #hand {
-    top: -10%;
-    left: 90%;
-    height: 35%;
-  }
-  #apple {
-    top: 0%;
-    left: 90%;
-    height: 40%;
-  }
-  #mbag {
-    top: -25%;
-    left: 0%;
-    height: 40%;
+    padding-bottom: 0%;
+    padding-top: 0%;
   }
   #shoe {
     top: 0%;
     left: 0%;
-    height: 35%;
+    height: 60%;
+  }
+  #apple {
+    top: 0%;
+    left: 87%;
+    height: 70%;
+  }
+  #mbag {
+    top: -45%;
+    left: 0%;
+    height: 55%;
+  }
+  #hand {
+    top: 0%;
+    left: 95%;
+    height: 40%;
   }
 }
+
 @media (max-width: 651px) {
   .title {
     font-size: 35px;
   }
   #mbag {
-    top: -25%;
-    left: 0%;
-    height: 35%;
+    top: -55%;
   }
   #apple {
-    top: -25%;
-    left: 90%;
-    height: 35%;
+    top: 50%;
+    height: 50%;
   }
   #rect3 {
     padding-right: 0%;
   }
 }
-@media (max-width: 622px) {
-  #rect1 {
-    padding-bottom: 5%;
-  }
-}
+
 @media (max-width: 577px) {
   #rect4 {
     padding-top: 0%;
   }
-  #mbag,
+
   #apple {
-    top: -25%;
+    top: 90%;
+  }
+}
+@media (max-width: 544px) {
+  #rect2 {
+    padding-left: 0%;
+  }
+  #shoe {
+    height: 45%;
+    top: -50%;
+    z-index: 10;
+  }
+  #hand {
+    left: 90%;
+    height: 35%;
+    top: -15%;
+  }
+  #apple {
+    top: -40%;
+    height: 40%;
+    left: 5%;
+  }
+  #mbag {
+    height: 55%;
+    top: -55%;
+    left: 83%;
   }
 }
 @media (max-width: 515px) {
@@ -414,54 +431,66 @@
     margin-bottom: 5%;
   }
 }
-@media (max-width: 500px) {
-  #apple {
-    left: 90%;
-  }
-  #shoe,
-  #apple,
-  #mbag,
+@media (max-width: 472px) {
   #hand {
+    left: 87%;
     height: 25%;
+    top: -8%;
   }
 }
-@media (max-width: 477px) {
-  #rect1 {
-    padding-bottom: 11%;
+@media (max-width: 460px) {
+  #apple {
+    top: -35%;
+    height: 30%;
+    left: 5%;
   }
-  .wrapp {
-    margin-bottom: 20%;
+  #mbag {
+    height: 45%;
+    top: -45%;
+    left: 83%;
   }
 }
-@media (max-width: 436px) {
-  #rect2 {
-    padding-left: 0%;
-  }
+@media (max-width: 437px) {
   #shoe {
-    top: -15%;
+    height: 35%;
+    top: -35%;
   }
-  #rect1 {
-    padding-bottom: 15%;
-  }
-}
-@media (max-width: 393px) {
-  #rect1 {
-    padding-bottom: 25%;
+  #apple {
+    top: -35%;
+    height: 30%;
+    left: 5%;
   }
 }
-@media (max-width: 378px) {
-  #rect1 {
-    padding-bottom: 30%;
-  }
-  #rect3 {
-    margin-top: -5%;
-  }
-  #rect4 {
-    padding-bottom: 25%;
+@media (max-width: 435px) {
+  #apple {
+    top: -30%;
   }
 }
-@media (max-width: 334px) {
-  #rect5 {
-    padding-bottom: 20%;
+
+@media (max-width: 394px) {
+  #hand {
+    left: 82%;
+    height: 23%;
+    top: -12%;
+  }
+}
+@media (max-width: 371px) {
+  #apple {
+    top: -23%;
+    height: 25%;
+    left: 5%;
+  }
+}
+@media (max-width: 354px) {
+  #mbag {
+    height: 35%;
+    top: -35%;
+    left: 80%;
+  }
+}
+@media (max-width: 349px) {
+  #shoe {
+    height: 30%;
+    top: -30%;
   }
 }

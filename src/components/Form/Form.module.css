@@ -279,9 +279,6 @@
   .form {
     height: 960px;
   }
-  .wrapp {
-    padding-top: 25%;
-  }
 }
 
 @media (max-width: 540px) {
