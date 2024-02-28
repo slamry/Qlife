@@ -55,8 +55,8 @@
 }
 #shoe {
   animation: animate 3s linear infinite;
-  top: 60%;
-  right: 0%;
+  top: 75%;
+  right: 5%;
 }
 @keyframes animate {
   0% {
@@ -75,7 +75,7 @@
   left: 25%;
 }
 #mbag {
-  top: 80%;
+  top: 90%;
   right: 12%;
   animation: pulse 2s ease-in-out infinite;
   height: 55%;
@@ -133,9 +133,6 @@
   }
 }
 @media (max-width: 1375px) {
-  #shoe {
-    top: 50%;
-  }
   #rect4 {
     margin-top: -4%;
   }
@@ -170,6 +167,9 @@
   #rect3 {
     margin-top: -5%;
   }
+  #apple {
+    top: 80%;
+  }
 }
 @media (max-width: 1237px) {
   #rect5,
@@ -177,16 +177,6 @@
   #rect3,
   #rect4 {
     margin-top: -1%;
-  }
-  #shoe {
-    top: 60%;
-  }
-  #apple {
-    top: 60%;
-  }
-  #mbag {
-    top: 60%;
-    right: 0%;
   }
 }
 @media (max-width: 1198px) {
@@ -203,6 +193,13 @@
   #rect4 {
     margin-top: -3%;
   }
+  #shoe {
+    top: 80%;
+  }
+  #mbag {
+    top: 90%;
+    right: 0%;
+  }
 }
 @media (max-width: 1147px) {
   #rect3 {
@@ -216,11 +213,8 @@
   #rect3 {
     margin-top: -2%;
   }
-  #hand {
-    top: 90%;
-  }
 }
-@media (max-width: 1127px) or (width = 1126px) {
+@media (max-width: 1127px) {
   #rect5,
   #rect2,
   #rect3,
@@ -238,6 +232,9 @@
 @media (max-width: 1092px) {
   #rect3 {
     margin-top: -2%;
+  }
+  #shoe{
+    height: 35%;
   }
 }
 @media (max-width: 1067px) {
@@ -260,11 +257,6 @@
   #rect5 {
     margin-top: -3%;
   }
-  #shoe {
-    top: 60%;
-    /* left: 115%; */
-    height: 30%;
-  }
 }
 @media (max-width: 998px) {
   #rect2 {
@@ -276,9 +268,6 @@
     margin-top: 0%;
     padding-top: 10%;
     padding-left: 40%;
-  }
-  #shoe {
-    top: 70%;
   }
   #rect3 {
     padding-right: 50%;
@@ -383,7 +372,7 @@
     top: -55%;
   }
   #apple {
-    top: 50%;
+    top: 95%;
     height: 50%;
   }
   #rect3 {
@@ -398,6 +387,12 @@
 
   #apple {
     top: 90%;
+  }
+}
+@media (max-width: 553px) {
+  #mbag{
+    top: -42%;
+    height: 45%;
   }
 }
 @media (max-width: 544px) {
