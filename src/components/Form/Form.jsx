@@ -23,7 +23,7 @@ const Form = () => {
   // } = useForm();
 
   // async function onSubmit(value) {
-  //   
+  //
   //   }
   // }
 
@@ -61,7 +61,7 @@ const Form = () => {
           <iframe
             scrolling="no"
             title="form"
-            src="https://docs.google.com/forms/d/e/1FAIpQLSd0RleaOAAZuypfgV654ozcNhUzNvY3w7v2cyFrAp8QHrtmXQ/viewform?embedded=true"
+            src="https://docs.google.com/forms/d/e/1FAIpQLSdb2025UNFp57XyKhO7hb0baOm9LXW9SfvtfJ9JQzp9tiCMfA/viewform?embedded=true"
             frameBorder="0"
             className={s.form}
           >
@@ -74,7 +74,7 @@ const Form = () => {
           <iframe
             scrolling="no"
             title="form"
-            src="https://docs.google.com/forms/d/e/1FAIpQLSd0RleaOAAZuypfgV654ozcNhUzNvY3w7v2cyFrAp8QHrtmXQ/viewform?embedded=true"
+            src="https://docs.google.com/forms/d/e/1FAIpQLSdb2025UNFp57XyKhO7hb0baOm9LXW9SfvtfJ9JQzp9tiCMfA/viewform?embedded=true"
             frameBorder="0"
             className={s.form}
           >

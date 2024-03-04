@@ -340,7 +340,7 @@
 }
 @media (max-width: 413px) {
   .form {
-    height: 1030px;
+    height: 965px;
   }
   .wrapp {
     padding-top: 40%;
@@ -348,7 +348,7 @@
 }
 @media (max-width: 399px) {
   .form {
-    height: 1070px;
+    height: 1020px;
   }
   .cubes {
     height: 5%;
@@ -360,7 +360,7 @@
 }
 @media (max-width: 363px) {
   .form {
-    height: 1100px;
+    height: 1040px;
   }
   .wrapp {
     padding-top: 55%;
@@ -368,7 +368,7 @@
 }
 @media (max-width: 351px) {
   .form {
-    height: 1110px;
+    height: 1070px;
   }
   .wrapp {
     margin-top: 40%;
